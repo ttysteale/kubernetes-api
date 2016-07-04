@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 func TestRecyclerSuccess(t *testing.T) {

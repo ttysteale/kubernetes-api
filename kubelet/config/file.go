@@ -25,9 +25,9 @@ import (
 	"sort"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubetypes "github.com/ttysteale/kubernetes-api/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 
 	"github.com/golang/glog"
 )

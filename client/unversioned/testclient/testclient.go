@@ -22,16 +22,16 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/typed/discovery"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/version"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/typed/discovery"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/version"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // NewSimpleFake returns a client that will respond with the provided objects

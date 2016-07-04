@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 func newTestCache() *cache {

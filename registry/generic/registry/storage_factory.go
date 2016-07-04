@@ -17,10 +17,10 @@ limitations under the License.
 package registry
 
 import (
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
-	etcdstorage "k8s.io/kubernetes/pkg/storage/etcd"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
+	etcdstorage "github.com/ttysteale/kubernetes-api/storage/etcd"
 )
 
 // Creates a cacher on top of the given 'storageInterface'.

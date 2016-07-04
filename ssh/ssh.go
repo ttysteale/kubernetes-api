@@ -39,9 +39,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/crypto/ssh"
 
-	utilnet "k8s.io/kubernetes/pkg/util/net"
-	"k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/util/wait"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 var (

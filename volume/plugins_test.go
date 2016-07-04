@@ -19,7 +19,7 @@ package volume
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 func TestSpecSourceConverters(t *testing.T) {

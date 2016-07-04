@@ -24,12 +24,12 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
-	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api/latest"
-	"k8s.io/kubernetes/pkg/kubectl"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/util/flag"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
+	clientcmdapi "github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api/latest"
+	"github.com/ttysteale/kubernetes-api/kubectl"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/util/flag"
 )
 
 type ViewOptions struct {

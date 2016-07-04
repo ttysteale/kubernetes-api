@@ -26,15 +26,15 @@ import (
 	"github.com/emicklei/go-restful"
 	"github.com/evanphx/json-patch"
 
-	"k8s.io/kubernetes/pkg/api"
-	apierrors "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/diff"
-	"k8s.io/kubernetes/pkg/util/strategicpatch"
+	"github.com/ttysteale/kubernetes-api/api"
+	apierrors "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/diff"
+	"github.com/ttysteale/kubernetes-api/util/strategicpatch"
 )
 
 type testPatchType struct {

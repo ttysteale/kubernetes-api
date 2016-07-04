@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func TestValidateLabels(t *testing.T) {

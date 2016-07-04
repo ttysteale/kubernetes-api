@@ -19,14 +19,14 @@ package etcd
 import (
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/fields"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/registry/thirdpartyresourcedata"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/fields"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	"github.com/ttysteale/kubernetes-api/registry/thirdpartyresourcedata"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // REST implements a RESTStorage for ThirdPartyResourceDatas against etcd

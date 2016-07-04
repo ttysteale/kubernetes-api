@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	registered "k8s.io/kubernetes/pkg/apimachinery/registered"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
+	api "github.com/ttysteale/kubernetes-api/api"
+	registered "github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 type CertificatesInterface interface {

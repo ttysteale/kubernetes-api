@@ -22,13 +22,13 @@ import (
 
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/kubectl"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/kubectl/resource"
-	"k8s.io/kubernetes/pkg/runtime"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/kubectl"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/kubectl/resource"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 // ImageOptions is the start of the data required to perform the operation.  As new fields are added, add them here instead of

@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	cadvisorapi "github.com/google/cadvisor/info/v1"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubecontainertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	kubecontainertest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
 )
 
 func TestGetContainerInfo(t *testing.T) {

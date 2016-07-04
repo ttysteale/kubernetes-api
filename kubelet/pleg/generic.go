@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/util/wait"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/metrics"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // GenericPLEG is an extremely simple generic PLEG that relies solely on

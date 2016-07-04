@@ -21,13 +21,13 @@ import (
 	"strconv"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/custommetrics"
-	"k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/runtime"
-	kubetypes "k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/custommetrics"
+	"github.com/ttysteale/kubernetes-api/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/kubelet/util/format"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	kubetypes "github.com/ttysteale/kubernetes-api/types"
 )
 
 // This file contains all docker label related constants and functions, including:

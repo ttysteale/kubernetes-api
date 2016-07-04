@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // EnableCrossGroupDecoding modifies the given decoder in place, if it is a codec

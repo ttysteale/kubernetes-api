@@ -21,13 +21,13 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	v1 "k8s.io/kubernetes/pkg/api/v1"
-	autoscaling "k8s.io/kubernetes/pkg/apis/autoscaling"
-	batch "k8s.io/kubernetes/pkg/apis/batch"
-	extensions "k8s.io/kubernetes/pkg/apis/extensions"
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	api "github.com/ttysteale/kubernetes-api/api"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	v1 "github.com/ttysteale/kubernetes-api/api/v1"
+	autoscaling "github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	batch "github.com/ttysteale/kubernetes-api/apis/batch"
+	extensions "github.com/ttysteale/kubernetes-api/apis/extensions"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func init() {

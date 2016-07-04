@@ -17,8 +17,8 @@ limitations under the License.
 package serializer
 
 import (
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/runtime/serializer/protobuf"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer/protobuf"
 )
 
 const (

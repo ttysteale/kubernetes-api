@@ -27,7 +27,7 @@ import (
 	"github.com/google/gofuzz"
 	flag "github.com/spf13/pflag"
 
-	"k8s.io/kubernetes/pkg/util/diff"
+	"github.com/ttysteale/kubernetes-api/util/diff"
 )
 
 var fuzzIters = flag.Int("fuzz-iters", 50, "How many fuzzing iterations to do.")

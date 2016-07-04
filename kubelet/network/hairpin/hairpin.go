@@ -26,7 +26,7 @@ import (
 	"strconv"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 const (

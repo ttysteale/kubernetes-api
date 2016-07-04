@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 type HorizontalPodAutoscalerV1Beta1 struct{}

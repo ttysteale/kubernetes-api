@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ObjectTracker keeps track of objects. It is intended to be used to

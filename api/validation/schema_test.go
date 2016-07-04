@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/runtime"
-	k8syaml "k8s.io/kubernetes/pkg/util/yaml"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	apitesting "github.com/ttysteale/kubernetes-api/api/testing"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	k8syaml "github.com/ttysteale/kubernetes-api/util/yaml"
 
 	"github.com/ghodss/yaml"
 )

@@ -20,14 +20,14 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/client/testing/core"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/quota/install"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/controller"
+	"github.com/ttysteale/kubernetes-api/quota/install"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func getResourceList(cpu, memory string) api.ResourceList {

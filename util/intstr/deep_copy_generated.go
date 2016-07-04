@@ -21,7 +21,7 @@ limitations under the License.
 package intstr
 
 import (
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func DeepCopy_intstr_IntOrString(in IntOrString, out *IntOrString, c *conversion.Cloner) error {

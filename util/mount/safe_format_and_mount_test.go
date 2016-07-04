@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 type ErrorMounter struct {

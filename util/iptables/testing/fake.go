@@ -16,7 +16,7 @@ limitations under the License.
 
 package testing
 
-import "k8s.io/kubernetes/pkg/util/iptables"
+import "github.com/ttysteale/kubernetes-api/util/iptables"
 
 // no-op implemenatation of iptables Interface
 type fake struct{}

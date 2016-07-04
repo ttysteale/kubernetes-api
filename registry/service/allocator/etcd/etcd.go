@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api"
-	k8serr "k8s.io/kubernetes/pkg/api/errors"
-	storeerr "k8s.io/kubernetes/pkg/api/errors/storage"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/registry/service"
-	"k8s.io/kubernetes/pkg/registry/service/allocator"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
+	"github.com/ttysteale/kubernetes-api/api"
+	k8serr "github.com/ttysteale/kubernetes-api/api/errors"
+	storeerr "github.com/ttysteale/kubernetes-api/api/errors/storage"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/registry/service"
+	"github.com/ttysteale/kubernetes-api/registry/service/allocator"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
 
 	"golang.org/x/net/context"
 )

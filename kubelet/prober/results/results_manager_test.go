@@ -21,9 +21,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 func TestCacheOperations(t *testing.T) {

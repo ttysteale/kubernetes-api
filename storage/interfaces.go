@@ -18,9 +18,9 @@ package storage
 
 import (
 	"golang.org/x/net/context"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // Versioner abstracts setting and retrieving metadata fields from database response

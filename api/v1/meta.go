@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/api/meta/metatypes"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/meta/metatypes"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 func (obj *ObjectMeta) GetObjectMeta() meta.Object { return obj }

@@ -19,10 +19,10 @@ package testclient
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func TestNewClient(t *testing.T) {

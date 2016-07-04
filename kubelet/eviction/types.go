@@ -19,9 +19,9 @@ package eviction
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/api/v1alpha1/stats"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	statsapi "github.com/ttysteale/kubernetes-api/kubelet/api/v1alpha1/stats"
 )
 
 // Signal defines a signal that can trigger eviction of pods on a node.

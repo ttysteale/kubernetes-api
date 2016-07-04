@@ -19,9 +19,9 @@ package config
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/cache"
-	"k8s.io/kubernetes/pkg/fields"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/cache"
+	"github.com/ttysteale/kubernetes-api/fields"
 )
 
 // NewSourceAPI creates config source that watches for changes to the services and endpoints.

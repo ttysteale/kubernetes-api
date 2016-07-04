@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // ThreadSafeStore is an interface that allows concurrent access to a storage backend.

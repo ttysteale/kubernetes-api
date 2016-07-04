@@ -17,8 +17,8 @@ limitations under the License.
 package exec
 
 import (
-	"k8s.io/kubernetes/pkg/probe"
-	"k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/probe"
+	"github.com/ttysteale/kubernetes-api/util/exec"
 
 	"github.com/golang/glog"
 )

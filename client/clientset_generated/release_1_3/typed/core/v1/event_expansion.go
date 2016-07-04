@@ -19,10 +19,10 @@ package v1
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/fields"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/fields"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // The EventExpansion interface allows manually adding extra methods to the EventInterface.

@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // TODO: Reconcile custom types in kubelet/types and this subpackage

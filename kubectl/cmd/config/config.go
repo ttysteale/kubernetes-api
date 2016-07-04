@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
 )
 
 func NewCmdConfig(pathOptions *clientcmd.PathOptions, out io.Writer) *cobra.Command {

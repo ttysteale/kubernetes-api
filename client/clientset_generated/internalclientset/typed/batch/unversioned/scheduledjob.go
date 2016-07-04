@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	batch "k8s.io/kubernetes/pkg/apis/batch"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	batch "github.com/ttysteale/kubernetes-api/apis/batch"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ScheduledJobsGetter has a method to return a ScheduledJobInterface.

@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/testapi"
-	uapi "k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	uapi "github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func objBody(object interface{}) io.ReadCloser {

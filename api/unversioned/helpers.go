@@ -19,8 +19,8 @@ package unversioned
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

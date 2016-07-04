@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/integer"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/integer"
 )
 
 type backoffEntry struct {

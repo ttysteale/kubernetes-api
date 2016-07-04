@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/client/testing/core"
-	"k8s.io/kubernetes/pkg/cloudprovider"
-	fakecloud "k8s.io/kubernetes/pkg/cloudprovider/providers/fake"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
+	fakecloud "github.com/ttysteale/kubernetes-api/cloudprovider/providers/fake"
 )
 
 func TestIsResponsibleForRoute(t *testing.T) {

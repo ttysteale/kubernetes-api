@@ -18,7 +18,7 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/aws"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func stringSetToPointers(in sets.String) []*string {

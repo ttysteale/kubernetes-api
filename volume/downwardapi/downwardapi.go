@@ -22,13 +22,13 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/fieldpath"
-	"k8s.io/kubernetes/pkg/types"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	utilstrings "k8s.io/kubernetes/pkg/util/strings"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/fieldpath"
+	"github.com/ttysteale/kubernetes-api/types"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	utilstrings "github.com/ttysteale/kubernetes-api/util/strings"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumeutil "github.com/ttysteale/kubernetes-api/volume/util"
 
 	"github.com/golang/glog"
 )

@@ -17,9 +17,9 @@ limitations under the License.
 package admission
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/auth/user"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/auth/user"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // Attributes is an interface used by AdmissionController to get information about a request

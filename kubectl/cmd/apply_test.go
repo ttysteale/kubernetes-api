@@ -28,14 +28,14 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/annotations"
-	kubeerr "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/annotations"
+	kubeerr "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func TestApplyExtraArgsFail(t *testing.T) {

@@ -20,12 +20,12 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	"k8s.io/kubernetes/pkg/fields"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/util/diff"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	apitesting "github.com/ttysteale/kubernetes-api/api/testing"
+	"github.com/ttysteale/kubernetes-api/fields"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/util/diff"
 )
 
 func testEvent(name string) *api.Event {

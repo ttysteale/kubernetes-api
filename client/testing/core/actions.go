@@ -19,11 +19,11 @@ package core
 import (
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/fields"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/fields"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func NewRootGetAction(resource unversioned.GroupVersionResource, name string) GetActionImpl {

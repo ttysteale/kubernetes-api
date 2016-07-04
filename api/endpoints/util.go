@@ -23,9 +23,9 @@ import (
 	"hash"
 	"sort"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	hashutil "k8s.io/kubernetes/pkg/util/hash"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	hashutil "github.com/ttysteale/kubernetes-api/util/hash"
 )
 
 const (

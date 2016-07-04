@@ -19,8 +19,8 @@ package testing
 import (
 	"fmt"
 
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network/hostport"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network/hostport"
 )
 
 type fakeHandler struct{}

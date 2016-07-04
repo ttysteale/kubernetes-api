@@ -27,7 +27,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/ttysteale/kubernetes-api/credentialprovider"
 )
 
 // AWSRegions is the complete list of regions known to the AWS cloudprovider

@@ -24,15 +24,15 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/deployment"
-	"k8s.io/kubernetes/pkg/util/integer"
-	"k8s.io/kubernetes/pkg/util/intstr"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/deployment"
+	"github.com/ttysteale/kubernetes-api/util/integer"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 const (

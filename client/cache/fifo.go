@@ -19,7 +19,7 @@ package cache
 import (
 	"sync"
 
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // PopProcessFunc is passed to Pop() method of Queue interface.

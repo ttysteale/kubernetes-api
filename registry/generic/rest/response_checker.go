@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // Check the http error status from a location URL.

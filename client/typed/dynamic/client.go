@@ -26,14 +26,14 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/conversion/queryparams"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/runtime/serializer"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/conversion/queryparams"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // Client is a Kubernetes client that allows you to access metadata

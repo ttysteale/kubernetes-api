@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
-	"k8s.io/kubernetes/pkg/client/unversioned/testclient"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/intstr"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	apitesting "github.com/ttysteale/kubernetes-api/api/testing"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/testclient"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func oldRc(replicas int, original int) *api.ReplicationController {

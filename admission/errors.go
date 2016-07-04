@@ -17,10 +17,10 @@ limitations under the License.
 package admission
 
 import (
-	apierrors "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	apierrors "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 func extractResourceName(a Attributes) (name string, resource unversioned.GroupResource, err error) {

@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // Set of resp. Codes that we backoff for.

@@ -25,10 +25,10 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/version"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/version"
 )
 
 func TestGetServerVersion(t *testing.T) {

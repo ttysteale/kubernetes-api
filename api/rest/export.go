@@ -17,7 +17,7 @@ limitations under the License.
 package rest
 
 import (
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // RESTExportStrategy is the interface that defines how to export a Kubernetes object

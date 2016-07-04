@@ -19,7 +19,7 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // AmbiguousResourceError is returned if the RESTMapper finds multiple matches for a resource

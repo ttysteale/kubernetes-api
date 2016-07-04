@@ -19,7 +19,7 @@ package bandwidth
 import (
 	"errors"
 
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 type FakeShaper struct {

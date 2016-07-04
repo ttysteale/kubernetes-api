@@ -20,12 +20,12 @@ import (
 	"errors"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	kerrors "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/client/unversioned/testclient"
+	"github.com/ttysteale/kubernetes-api/api"
+	kerrors "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/apis/batch"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/testclient"
 )
 
 type ErrorReplicationControllers struct {

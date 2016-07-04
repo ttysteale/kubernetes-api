@@ -17,9 +17,9 @@ limitations under the License.
 package quota
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // Equals returns true if the two lists are equivalent

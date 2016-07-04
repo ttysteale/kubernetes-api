@@ -19,8 +19,8 @@ package dynamic
 import (
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 // ClientPool manages a pool of dynamic clients.

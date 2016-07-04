@@ -17,8 +17,8 @@ limitations under the License.
 package v1beta1
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	api "k8s.io/kubernetes/pkg/apis/abac"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	api "github.com/ttysteale/kubernetes-api/apis/abac"
 )
 
 // GroupVersion is the API group and version for abac v1beta1

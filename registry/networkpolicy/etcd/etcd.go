@@ -17,15 +17,15 @@ limitations under the License.
 package etcd
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	extensionsapi "k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/fields"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/registry/cachesize"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/registry/networkpolicy"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	extensionsapi "github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/fields"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/registry/cachesize"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	"github.com/ttysteale/kubernetes-api/registry/networkpolicy"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // rest implements a RESTStorage for network policies against etcd

@@ -19,9 +19,9 @@ package validation
 import (
 	"testing"
 
-	api "k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	api "github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/rbac"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func TestValidateRoleBinding(t *testing.T) {

@@ -28,10 +28,10 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	apierrors "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/api"
+	apierrors "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
 	"k8s.io/kubernetes/third_party/golang/netutil"
 )
 

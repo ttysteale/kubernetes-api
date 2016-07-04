@@ -22,10 +22,10 @@ import (
 	"github.com/coreos/etcd/clientv3"
 	"golang.org/x/net/context"
 
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
-	"k8s.io/kubernetes/pkg/storage/etcd3"
-	"k8s.io/kubernetes/pkg/storage/storagebackend"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
+	"github.com/ttysteale/kubernetes-api/storage/etcd3"
+	"github.com/ttysteale/kubernetes-api/storage/storagebackend"
 )
 
 func newETCD3Storage(c storagebackend.Config, codec runtime.Codec) (storage.Interface, error) {

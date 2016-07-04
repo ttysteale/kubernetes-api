@@ -22,14 +22,14 @@ import (
 	"net/url"
 	"path"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/capabilities"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	genericrest "k8s.io/kubernetes/pkg/registry/generic/rest"
-	"k8s.io/kubernetes/pkg/registry/pod"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/capabilities"
+	"github.com/ttysteale/kubernetes-api/kubelet/client"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	genericrest "github.com/ttysteale/kubernetes-api/registry/generic/rest"
+	"github.com/ttysteale/kubernetes-api/registry/pod"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // ProxyREST implements the proxy subresource for a Pod

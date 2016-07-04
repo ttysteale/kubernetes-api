@@ -19,11 +19,11 @@ package scheduledjob
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/labels"
+	"github.com/ttysteale/kubernetes-api/api"
+	apitesting "github.com/ttysteale/kubernetes-api/api/testing"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/batch"
+	"github.com/ttysteale/kubernetes-api/labels"
 )
 
 func newBool(a bool) *bool {

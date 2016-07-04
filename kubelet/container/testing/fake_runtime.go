@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	. "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/api"
+	. "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 type FakePod struct {

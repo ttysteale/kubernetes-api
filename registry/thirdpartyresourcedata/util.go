@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
 )
 
 func ExtractGroupVersionKind(list *extensions.ThirdPartyResourceList) ([]unversioned.GroupVersion, []unversioned.GroupVersionKind, error) {

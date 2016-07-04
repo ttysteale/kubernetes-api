@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // ResourceList returns a string representation of a resource list in a human readable format.

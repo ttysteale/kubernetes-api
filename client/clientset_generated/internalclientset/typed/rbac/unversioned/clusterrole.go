@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	rbac "k8s.io/kubernetes/pkg/apis/rbac"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	rbac "github.com/ttysteale/kubernetes-api/apis/rbac"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ClusterRolesGetter has a method to return a ClusterRoleInterface.

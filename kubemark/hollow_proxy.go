@@ -21,13 +21,13 @@ import (
 
 	proxyapp "k8s.io/kubernetes/cmd/kube-proxy/app"
 	"k8s.io/kubernetes/cmd/kube-proxy/app/options"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/record"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	proxyconfig "k8s.io/kubernetes/pkg/proxy/config"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	proxyconfig "github.com/ttysteale/kubernetes-api/proxy/config"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
 
 	"github.com/golang/glog"
 )

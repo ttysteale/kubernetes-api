@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"golang.org/x/net/context"
-	"k8s.io/kubernetes/pkg/util/rand"
+	"github.com/ttysteale/kubernetes-api/util/rand"
 )
 
 func configFromEnv() (cfg VSphereConfig, ok bool) {

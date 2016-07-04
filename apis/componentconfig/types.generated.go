@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 	codec1978 "github.com/ugorji/go/codec"
-	pkg1_unversioned "k8s.io/kubernetes/pkg/api/unversioned"
+	pkg1_unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
 	"reflect"
 	"runtime"
 	time "time"

@@ -21,9 +21,9 @@ import (
 	"sort"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/controller"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/apps"
+	"github.com/ttysteale/kubernetes-api/controller"
 )
 
 // newPCB generates a new PCB using the id string as a unique qualifier

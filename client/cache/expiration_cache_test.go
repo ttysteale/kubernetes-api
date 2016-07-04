@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 func TestTTLExpirationBasic(t *testing.T) {

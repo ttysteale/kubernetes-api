@@ -29,7 +29,7 @@ import (
 	dockertypes "github.com/docker/engine-api/types"
 	dockercontainer "github.com/docker/engine-api/types/container"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // FakeDockerClient is a simple fake docker client, so that kubelet can be run for testing without requiring a real docker setup.

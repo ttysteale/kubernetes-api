@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/pborman/uuid"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 var uuidLock sync.Mutex

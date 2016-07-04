@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 func TestAccept(t *testing.T) {

@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	v1 "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/autoscaling/v1"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
-	core "k8s.io/kubernetes/pkg/client/testing/core"
+	v1 "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/autoscaling/v1"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
+	core "github.com/ttysteale/kubernetes-api/client/testing/core"
 )
 
 type FakeAutoscaling struct {

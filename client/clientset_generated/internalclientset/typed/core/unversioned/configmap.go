@@ -17,8 +17,8 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ConfigMapsGetter has a method to return a ConfigMapInterface.

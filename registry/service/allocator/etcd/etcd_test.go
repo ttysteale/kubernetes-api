@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
-	"k8s.io/kubernetes/pkg/registry/service/allocator"
-	"k8s.io/kubernetes/pkg/storage/etcd/etcdtest"
-	etcdtesting "k8s.io/kubernetes/pkg/storage/etcd/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/registry/registrytest"
+	"github.com/ttysteale/kubernetes-api/registry/service/allocator"
+	"github.com/ttysteale/kubernetes-api/storage/etcd/etcdtest"
+	etcdtesting "github.com/ttysteale/kubernetes-api/storage/etcd/testing"
 
 	"golang.org/x/net/context"
 )

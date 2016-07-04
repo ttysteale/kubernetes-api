@@ -17,7 +17,7 @@ limitations under the License.
 package flowcontrol
 
 import (
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/util"
 	"testing"
 	"time"
 )

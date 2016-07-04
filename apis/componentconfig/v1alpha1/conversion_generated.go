@@ -21,9 +21,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	componentconfig "k8s.io/kubernetes/pkg/apis/componentconfig"
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	api "github.com/ttysteale/kubernetes-api/api"
+	componentconfig "github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func init() {

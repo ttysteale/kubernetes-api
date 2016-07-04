@@ -20,11 +20,11 @@ import (
 	"github.com/golang/glog"
 	"github.com/google/cadvisor/events"
 	cadvisorapi "github.com/google/cadvisor/info/v1"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/record"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	"github.com/ttysteale/kubernetes-api/kubelet/cadvisor"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 type OOMWatcher interface {

@@ -30,12 +30,12 @@ import (
 	skyServer "github.com/skynetservices/skydns/server"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	kapi "k8s.io/kubernetes/pkg/api"
-	endpointsapi "k8s.io/kubernetes/pkg/api/endpoints"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/cache"
-	fake "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/util/sets"
+	kapi "github.com/ttysteale/kubernetes-api/api"
+	endpointsapi "github.com/ttysteale/kubernetes-api/api/endpoints"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/cache"
+	fake "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 const (

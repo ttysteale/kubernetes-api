@@ -21,15 +21,15 @@ import (
 	"net/http"
 	"net/url"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/cachesize"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/registry/node"
-	noderest "k8s.io/kubernetes/pkg/registry/node/rest"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/kubelet/client"
+	"github.com/ttysteale/kubernetes-api/registry/cachesize"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	"github.com/ttysteale/kubernetes-api/registry/node"
+	noderest "github.com/ttysteale/kubernetes-api/registry/node/rest"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // NodeStorage includes storage for nodes and all sub resources

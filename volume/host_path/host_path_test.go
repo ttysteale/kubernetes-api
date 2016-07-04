@@ -23,13 +23,13 @@ import (
 	"os"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 func TestCanSupport(t *testing.T) {

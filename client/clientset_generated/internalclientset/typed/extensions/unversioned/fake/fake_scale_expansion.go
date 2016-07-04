@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
 )
 
 func (c *FakeScales) Get(kind string, name string) (result *extensions.Scale, err error) {

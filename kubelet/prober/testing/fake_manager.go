@@ -17,8 +17,8 @@ limitations under the License.
 package testing
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 type FakeManager struct{}

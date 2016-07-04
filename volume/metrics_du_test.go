@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
-	. "k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
+	. "github.com/ttysteale/kubernetes-api/volume"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 const expectedBlockSize = 4096

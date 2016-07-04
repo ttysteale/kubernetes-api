@@ -17,10 +17,10 @@ limitations under the License.
 package unversioned
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/apis/apps"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 type AppsInterface interface {

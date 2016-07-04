@@ -21,10 +21,10 @@ limitations under the License.
 package policy
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	conversion "k8s.io/kubernetes/pkg/conversion"
-	intstr "k8s.io/kubernetes/pkg/util/intstr"
+	api "github.com/ttysteale/kubernetes-api/api"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
+	intstr "github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 func init() {

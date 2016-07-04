@@ -23,10 +23,10 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/ugorji/go/codec"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/framer"
-	utilyaml "k8s.io/kubernetes/pkg/util/yaml"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/framer"
+	utilyaml "github.com/ttysteale/kubernetes-api/util/yaml"
 )
 
 // NewSerializer creates a JSON serializer that handles encoding versioned objects into the proper JSON form. If typer

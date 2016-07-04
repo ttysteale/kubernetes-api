@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
 )
 
 func parse(raw string) *url.URL {

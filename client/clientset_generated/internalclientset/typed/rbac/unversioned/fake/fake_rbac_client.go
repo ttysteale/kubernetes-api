@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	unversioned "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/rbac/unversioned"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
-	core "k8s.io/kubernetes/pkg/client/testing/core"
+	unversioned "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/rbac/unversioned"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
+	core "github.com/ttysteale/kubernetes-api/client/testing/core"
 )
 
 type FakeRbac struct {

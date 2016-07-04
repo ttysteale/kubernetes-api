@@ -21,12 +21,12 @@ import (
 	"os"
 	"testing"
 
-	api "k8s.io/kubernetes/pkg/apis/abac"
-	"k8s.io/kubernetes/pkg/apis/abac/v0"
-	"k8s.io/kubernetes/pkg/apis/abac/v1beta1"
-	"k8s.io/kubernetes/pkg/auth/authorizer"
-	"k8s.io/kubernetes/pkg/auth/user"
-	"k8s.io/kubernetes/pkg/runtime"
+	api "github.com/ttysteale/kubernetes-api/apis/abac"
+	"github.com/ttysteale/kubernetes-api/apis/abac/v0"
+	"github.com/ttysteale/kubernetes-api/apis/abac/v1beta1"
+	"github.com/ttysteale/kubernetes-api/auth/authorizer"
+	"github.com/ttysteale/kubernetes-api/auth/user"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func TestEmptyFile(t *testing.T) {

@@ -19,7 +19,7 @@ limitations under the License.
 // (You must first `go install k8s.io/kubernetes/cmd/libs/go2idl/set-gen`)
 package types
 
-//go:generate set-gen -i k8s.io/kubernetes/pkg/util/sets/types
+//go:generate set-gen -i github.com/ttysteale/kubernetes-api/util/sets/types
 
 type ReferenceSetTypes struct {
 	// These types all cause files to be generated

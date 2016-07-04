@@ -17,8 +17,8 @@ limitations under the License.
 package kubectl
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	client "k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/api"
+	client "github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 // RESTClient is a client helper for dealing with RESTful resources

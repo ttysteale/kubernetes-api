@@ -27,10 +27,10 @@ import (
 	"strings"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
-	"k8s.io/kubernetes/pkg/util/httpstream"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/kubelet/server/portforward"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // PortForwarder knows how to listen for local connections and forward them to

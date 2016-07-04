@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sort"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/cache"
-	"k8s.io/kubernetes/pkg/labels"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/cache"
+	"github.com/ttysteale/kubernetes-api/labels"
 )
 
 // persistentVolumeOrderedIndex is a cache.Store that keeps persistent volumes

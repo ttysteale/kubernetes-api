@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 func TestRateLimitingQueue(t *testing.T) {

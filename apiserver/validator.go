@@ -19,9 +19,9 @@ package apiserver
 import (
 	"net/http"
 
-	"k8s.io/kubernetes/pkg/probe"
-	httpprober "k8s.io/kubernetes/pkg/probe/http"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/probe"
+	httpprober "github.com/ttysteale/kubernetes-api/probe/http"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 	"time"
 )
 

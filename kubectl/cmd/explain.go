@@ -22,10 +22,10 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/kubectl"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/kubectl"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
 )
 
 var (

@@ -22,10 +22,10 @@ import (
 
 	"github.com/renstrom/dedent"
 
-	"k8s.io/kubernetes/pkg/kubectl"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/kubectl/resource"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	"github.com/ttysteale/kubernetes-api/kubectl"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/kubectl/resource"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 
 	"github.com/spf13/cobra"
 )

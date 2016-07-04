@@ -21,9 +21,9 @@ package kubenet
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
 )
 
 type kubenetNetworkPlugin struct {

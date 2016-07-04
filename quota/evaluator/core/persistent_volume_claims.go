@@ -17,12 +17,12 @@ limitations under the License.
 package core
 
 import (
-	"k8s.io/kubernetes/pkg/admission"
-	"k8s.io/kubernetes/pkg/api"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/quota"
-	"k8s.io/kubernetes/pkg/quota/generic"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/admission"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/quota"
+	"github.com/ttysteale/kubernetes-api/quota/generic"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // NewPersistentVolumeClaimEvaluator returns an evaluator that can evaluate persistent volume claims

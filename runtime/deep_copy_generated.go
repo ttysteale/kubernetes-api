@@ -21,7 +21,7 @@ limitations under the License.
 package runtime
 
 import (
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func DeepCopy_runtime_RawExtension(in RawExtension, out *RawExtension, c *conversion.Cloner) error {

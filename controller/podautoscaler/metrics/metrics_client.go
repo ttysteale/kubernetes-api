@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/v1"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/labels"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/labels"
 
 	heapster "k8s.io/heapster/metrics/api/v1/types"
 	metrics_api "k8s.io/heapster/metrics/apis/metrics/v1alpha1"

@@ -17,12 +17,12 @@ limitations under the License.
 package etcd
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/registry/configmap"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/registry/configmap"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/runtime"
 
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
 )
 
 // REST implements a RESTStorage for ConfigMap against etcd

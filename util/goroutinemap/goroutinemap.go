@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	k8sRuntime "k8s.io/kubernetes/pkg/util/runtime"
+	k8sRuntime "github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 const (

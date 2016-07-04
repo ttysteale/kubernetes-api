@@ -20,16 +20,16 @@ import (
 	"reflect"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/client/record"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubepod "k8s.io/kubernetes/pkg/kubelet/pod"
-	"k8s.io/kubernetes/pkg/kubelet/prober/results"
-	"k8s.io/kubernetes/pkg/kubelet/status"
-	"k8s.io/kubernetes/pkg/probe"
-	"k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	kubepod "github.com/ttysteale/kubernetes-api/kubelet/pod"
+	"github.com/ttysteale/kubernetes-api/kubelet/prober/results"
+	"github.com/ttysteale/kubernetes-api/kubelet/status"
+	"github.com/ttysteale/kubernetes-api/probe"
+	"github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 const (

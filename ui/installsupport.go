@@ -20,7 +20,7 @@ import (
 	"mime"
 	"net/http"
 
-	"k8s.io/kubernetes/pkg/ui/data/swagger"
+	"github.com/ttysteale/kubernetes-api/ui/data/swagger"
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 )

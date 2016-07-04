@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/ttysteale/kubernetes-api/credentialprovider"
 )
 
 const (

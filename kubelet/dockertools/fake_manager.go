@@ -18,17 +18,17 @@ package dockertools
 
 import (
 	cadvisorapi "github.com/google/cadvisor/info/v1"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/record"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network"
-	proberesults "k8s.io/kubernetes/pkg/kubelet/prober/results"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/cache"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
-	"k8s.io/kubernetes/pkg/util/oom"
-	"k8s.io/kubernetes/pkg/util/procfs"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
+	proberesults "github.com/ttysteale/kubernetes-api/kubelet/prober/results"
+	kubetypes "github.com/ttysteale/kubernetes-api/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/kubelet/util/cache"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/util/oom"
+	"github.com/ttysteale/kubernetes-api/util/procfs"
 )
 
 func NewFakeDockerManager(

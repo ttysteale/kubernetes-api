@@ -23,19 +23,19 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/controller"
-	"k8s.io/kubernetes/pkg/labels"
-	"k8s.io/kubernetes/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/util/integer"
-	intstrutil "k8s.io/kubernetes/pkg/util/intstr"
-	labelsutil "k8s.io/kubernetes/pkg/util/labels"
-	podutil "k8s.io/kubernetes/pkg/util/pod"
-	rsutil "k8s.io/kubernetes/pkg/util/replicaset"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/controller"
+	"github.com/ttysteale/kubernetes-api/labels"
+	"github.com/ttysteale/kubernetes-api/util/errors"
+	"github.com/ttysteale/kubernetes-api/util/integer"
+	intstrutil "github.com/ttysteale/kubernetes-api/util/intstr"
+	labelsutil "github.com/ttysteale/kubernetes-api/util/labels"
+	podutil "github.com/ttysteale/kubernetes-api/util/pod"
+	rsutil "github.com/ttysteale/kubernetes-api/util/replicaset"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 const (

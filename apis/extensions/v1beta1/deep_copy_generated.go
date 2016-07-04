@@ -21,12 +21,12 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	resource "k8s.io/kubernetes/pkg/api/resource"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	v1 "k8s.io/kubernetes/pkg/api/v1"
-	conversion "k8s.io/kubernetes/pkg/conversion"
-	intstr "k8s.io/kubernetes/pkg/util/intstr"
+	api "github.com/ttysteale/kubernetes-api/api"
+	resource "github.com/ttysteale/kubernetes-api/api/resource"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	v1 "github.com/ttysteale/kubernetes-api/api/v1"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
+	intstr "github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 func init() {

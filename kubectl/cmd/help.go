@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
 )
 
 const help_long = `Help provides help for any command in the application.

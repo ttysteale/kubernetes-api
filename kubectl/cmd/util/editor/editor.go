@@ -29,7 +29,7 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/util/term"
+	"github.com/ttysteale/kubernetes-api/util/term"
 )
 
 const (

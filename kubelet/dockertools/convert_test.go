@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	dockertypes "github.com/docker/engine-api/types"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 func TestMapState(t *testing.T) {

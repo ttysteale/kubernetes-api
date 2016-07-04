@@ -22,13 +22,13 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/exec"
-	"k8s.io/kubernetes/pkg/util/mount"
-	utilstrings "k8s.io/kubernetes/pkg/util/strings"
-	"k8s.io/kubernetes/pkg/volume"
-	ioutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	utilstrings "github.com/ttysteale/kubernetes-api/util/strings"
+	"github.com/ttysteale/kubernetes-api/volume"
+	ioutil "github.com/ttysteale/kubernetes-api/volume/util"
 )
 
 // This is the primary entrypoint for volume plugins.

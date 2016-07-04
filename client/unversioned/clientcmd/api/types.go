@@ -17,7 +17,7 @@ limitations under the License.
 package api
 
 import (
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // Where possible, json tags match the cli argument names.

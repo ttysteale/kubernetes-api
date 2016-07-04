@@ -17,8 +17,8 @@ limitations under the License.
 package v0
 
 import (
-	api "k8s.io/kubernetes/pkg/apis/abac"
-	"k8s.io/kubernetes/pkg/conversion"
+	api "github.com/ttysteale/kubernetes-api/apis/abac"
+	"github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func init() {

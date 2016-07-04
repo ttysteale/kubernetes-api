@@ -19,8 +19,8 @@ package cache
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // Indexer is a storage interface that lets you list objects using multiple indexing functions

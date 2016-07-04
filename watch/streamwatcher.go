@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/net"
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/net"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // Decoder allows StreamWatcher to watch any stream for which a Decoder can be written.

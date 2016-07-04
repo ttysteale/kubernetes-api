@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/kubelet/volume/cache"
-	"k8s.io/kubernetes/pkg/util/goroutinemap"
-	"k8s.io/kubernetes/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/kubelet/volume/cache"
+	"github.com/ttysteale/kubernetes-api/util/goroutinemap"
+	"github.com/ttysteale/kubernetes-api/util/wait"
+	"github.com/ttysteale/kubernetes-api/volume/util/operationexecutor"
 )
 
 // Reconciler runs a periodic loop to reconcile the desired state of the world

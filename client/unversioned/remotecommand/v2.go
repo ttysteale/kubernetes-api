@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/httpstream"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // streamProtocolV2 implements version 2 of the streaming protocol for attach

@@ -25,7 +25,7 @@ import (
 
 	dockertypes "github.com/docker/engine-api/types"
 	"github.com/golang/glog"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // ExecHandler knows how to execute a command in a running Docker container.

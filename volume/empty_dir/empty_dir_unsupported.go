@@ -19,7 +19,7 @@ limitations under the License.
 package empty_dir
 
 import (
-	"k8s.io/kubernetes/pkg/util/mount"
+	"github.com/ttysteale/kubernetes-api/util/mount"
 )
 
 // realMountDetector pretends to implement mediumer.

@@ -24,9 +24,9 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
-	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
+	clientcmdapi "github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 type createContextOptions struct {

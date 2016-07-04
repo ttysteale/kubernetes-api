@@ -17,7 +17,7 @@ limitations under the License.
 package authentication
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // TokenReview attempts to authenticate a token to a known user.

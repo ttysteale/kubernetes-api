@@ -24,7 +24,7 @@ import (
 
 	"bitbucket.org/ww/goautoneg"
 
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func negotiateOutput(req *http.Request, supported []string) (string, map[string]string, error) {

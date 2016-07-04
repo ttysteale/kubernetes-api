@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // MetaFactory is used to store and retrieve the version and kind

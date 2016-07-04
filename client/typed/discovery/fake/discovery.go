@@ -18,10 +18,10 @@ package fake
 
 import (
 	"github.com/emicklei/go-restful/swagger"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/client/testing/core"
-	"k8s.io/kubernetes/pkg/version"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/version"
 )
 
 type FakeDiscovery struct {

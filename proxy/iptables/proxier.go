@@ -36,14 +36,14 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/types"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
-	"k8s.io/kubernetes/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/util/slice"
-	utilsysctl "k8s.io/kubernetes/pkg/util/sysctl"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/proxy"
+	"github.com/ttysteale/kubernetes-api/types"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/slice"
+	utilsysctl "github.com/ttysteale/kubernetes-api/util/sysctl"
 )
 
 // iptablesMinVersion is the minimum version of iptables for which we will use the Proxier

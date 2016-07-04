@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	expirationCache "k8s.io/kubernetes/pkg/client/cache"
-	"k8s.io/kubernetes/pkg/util"
+	expirationCache "github.com/ttysteale/kubernetes-api/client/cache"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 type testObject struct {

@@ -21,13 +21,13 @@ import (
 	"net"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/registry/service"
-	"k8s.io/kubernetes/pkg/registry/service/ipallocator"
-	"k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/registry/service"
+	"github.com/ttysteale/kubernetes-api/registry/service/ipallocator"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // Repair is a controller loop that periodically examines all service ClusterIP allocations

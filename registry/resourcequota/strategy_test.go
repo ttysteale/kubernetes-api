@@ -19,10 +19,10 @@ package resourcequota
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	apitesting "k8s.io/kubernetes/pkg/api/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	apitesting "github.com/ttysteale/kubernetes-api/api/testing"
 )
 
 func TestResourceQuotaStrategy(t *testing.T) {

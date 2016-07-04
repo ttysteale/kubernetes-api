@@ -19,7 +19,7 @@ package authorizer
 import (
 	"net/http"
 
-	"k8s.io/kubernetes/pkg/auth/user"
+	"github.com/ttysteale/kubernetes-api/auth/user"
 )
 
 // Attributes is an interface used by an Authorizer to get information about a request

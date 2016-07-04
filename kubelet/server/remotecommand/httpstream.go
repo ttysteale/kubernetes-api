@@ -23,11 +23,11 @@ import (
 	"net/http"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/httpstream"
-	"k8s.io/kubernetes/pkg/util/httpstream/spdy"
-	"k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/util/wsstream"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/util/httpstream/spdy"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wsstream"
 
 	"github.com/golang/glog"
 )

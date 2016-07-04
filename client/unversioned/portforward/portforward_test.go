@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/unversioned/remotecommand"
-	kubeletserver "k8s.io/kubernetes/pkg/kubelet/server"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/remotecommand"
+	kubeletserver "github.com/ttysteale/kubernetes-api/kubelet/server"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
 )
 
 type fakeDialer struct {

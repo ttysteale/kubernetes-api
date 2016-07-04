@@ -26,9 +26,9 @@ import (
 	rktapi "github.com/coreos/rkt/api/v1alpha"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 // fakeRktInterface mocks the rktapi.PublicAPIClient interface for testing purpose.

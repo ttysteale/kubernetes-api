@@ -17,7 +17,7 @@ limitations under the License.
 package authorization
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // SubjectAccessReview checks whether or not a user or group can perform an action.  Not filling in a

@@ -20,13 +20,13 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	ioutil "k8s.io/kubernetes/pkg/util/io"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/util/strings"
-	"k8s.io/kubernetes/pkg/volume"
-	volumeutil "k8s.io/kubernetes/pkg/volume/util"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	ioutil "github.com/ttysteale/kubernetes-api/util/io"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	"github.com/ttysteale/kubernetes-api/util/strings"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumeutil "github.com/ttysteale/kubernetes-api/volume/util"
 )
 
 // ProbeVolumePlugin is the entry point for plugin detection in a package.

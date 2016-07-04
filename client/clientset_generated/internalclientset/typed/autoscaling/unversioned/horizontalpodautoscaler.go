@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	autoscaling "k8s.io/kubernetes/pkg/apis/autoscaling"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	autoscaling "github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // HorizontalPodAutoscalersGetter has a method to return a HorizontalPodAutoscalerInterface.

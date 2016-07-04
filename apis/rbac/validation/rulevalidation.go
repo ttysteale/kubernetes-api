@@ -21,11 +21,11 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	apierrors "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	"k8s.io/kubernetes/pkg/auth/user"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	"github.com/ttysteale/kubernetes-api/api"
+	apierrors "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/apis/rbac"
+	"github.com/ttysteale/kubernetes-api/auth/user"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 type AuthorizationRuleResolver interface {

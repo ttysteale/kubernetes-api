@@ -24,8 +24,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
 )
 
 func NewCmdApiVersions(f *cmdutil.Factory, out io.Writer) *cobra.Command {

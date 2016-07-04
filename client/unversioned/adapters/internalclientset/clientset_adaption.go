@@ -17,12 +17,12 @@ limitations under the License.
 package internalclientset
 
 import (
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	unversionedbatch "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/batch/unversioned"
-	unversionedcore "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/core/unversioned"
-	unversionedextensions "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/extensions/unversioned"
-	"k8s.io/kubernetes/pkg/client/typed/discovery"
-	"k8s.io/kubernetes/pkg/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	unversionedbatch "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/batch/unversioned"
+	unversionedcore "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/core/unversioned"
+	unversionedextensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/extensions/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/typed/discovery"
+	"github.com/ttysteale/kubernetes-api/client/unversioned"
 )
 
 // FromUnversionedClient adapts a unversioned.Client to a internalclientset.Clientset.

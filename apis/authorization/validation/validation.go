@@ -17,8 +17,8 @@ limitations under the License.
 package validation
 
 import (
-	authorizationapi "k8s.io/kubernetes/pkg/apis/authorization"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	authorizationapi "github.com/ttysteale/kubernetes-api/apis/authorization"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func ValidateSubjectAccessReviewSpec(spec authorizationapi.SubjectAccessReviewSpec, fldPath *field.Path) field.ErrorList {

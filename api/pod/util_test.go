@@ -19,8 +19,8 @@ package pod
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/intstr"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 func TestFindPort(t *testing.T) {

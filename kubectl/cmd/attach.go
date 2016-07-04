@@ -25,15 +25,15 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/client/unversioned/remotecommand"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	remotecommandserver "k8s.io/kubernetes/pkg/kubelet/server/remotecommand"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/util/interrupt"
-	"k8s.io/kubernetes/pkg/util/term"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/remotecommand"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	remotecommandserver "github.com/ttysteale/kubernetes-api/kubelet/server/remotecommand"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	"github.com/ttysteale/kubernetes-api/util/interrupt"
+	"github.com/ttysteale/kubernetes-api/util/term"
 )
 
 var (

@@ -19,8 +19,8 @@ package etcd
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	storagetesting "k8s.io/kubernetes/pkg/storage/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	storagetesting "github.com/ttysteale/kubernetes-api/storage/testing"
 )
 
 func TestObjectVersioner(t *testing.T) {

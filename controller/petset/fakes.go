@@ -22,14 +22,14 @@ import (
 
 	inf "gopkg.in/inf.v0"
 
-	"k8s.io/kubernetes/pkg/api"
-	api_pod "k8s.io/kubernetes/pkg/api/pod"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/apps"
-	"k8s.io/kubernetes/pkg/client/record"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	api_pod "github.com/ttysteale/kubernetes-api/api/pod"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/apps"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func dec(i int64, exponent int) *inf.Dec {

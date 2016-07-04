@@ -23,12 +23,12 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/cloudprovider"
-	"k8s.io/kubernetes/pkg/util/metrics"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/util/metrics"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 const (

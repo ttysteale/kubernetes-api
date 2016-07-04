@@ -19,11 +19,11 @@ package componentstatus
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apiserver"
-	"k8s.io/kubernetes/pkg/probe"
-	httpprober "k8s.io/kubernetes/pkg/probe/http"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apiserver"
+	"github.com/ttysteale/kubernetes-api/probe"
+	httpprober "github.com/ttysteale/kubernetes-api/probe/http"
+	"github.com/ttysteale/kubernetes-api/runtime"
 	"sync"
 )
 

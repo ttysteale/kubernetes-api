@@ -24,11 +24,11 @@ import (
 	cadvisorapiv2 "github.com/google/cadvisor/info/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"k8s.io/kubernetes/pkg/client/record"
-	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
-	"k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	cadvisortest "github.com/ttysteale/kubernetes-api/kubelet/cadvisor/testing"
+	"github.com/ttysteale/kubernetes-api/kubelet/container"
+	containertest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 var zero time.Time

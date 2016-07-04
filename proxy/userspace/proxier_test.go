@@ -29,11 +29,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/types"
-	ipttest "k8s.io/kubernetes/pkg/util/iptables/testing"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/proxy"
+	"github.com/ttysteale/kubernetes-api/types"
+	ipttest "github.com/ttysteale/kubernetes-api/util/iptables/testing"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 const (

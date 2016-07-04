@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	api "k8s.io/kubernetes/pkg/apis/abac"
-	"k8s.io/kubernetes/pkg/apis/abac/v0"
+	api "github.com/ttysteale/kubernetes-api/apis/abac"
+	"github.com/ttysteale/kubernetes-api/apis/abac/v0"
 )
 
 func TestConversion(t *testing.T) {

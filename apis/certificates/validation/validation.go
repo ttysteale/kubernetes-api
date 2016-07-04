@@ -19,10 +19,10 @@ package validation
 import (
 	"fmt"
 
-	apivalidation "k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/apis/certificates"
-	certutil "k8s.io/kubernetes/pkg/util/certificates"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	apivalidation "github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/apis/certificates"
+	certutil "github.com/ttysteale/kubernetes-api/util/certificates"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // validateCSR validates the signature and formatting of a base64-wrapped,

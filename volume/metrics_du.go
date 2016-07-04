@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/volume/util"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/volume/util"
 )
 
 var _ MetricsProvider = &metricsDu{}

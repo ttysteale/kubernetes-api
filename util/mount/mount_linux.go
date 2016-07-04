@@ -30,7 +30,7 @@ import (
 	"syscall"
 
 	"github.com/golang/glog"
-	utilExec "k8s.io/kubernetes/pkg/util/exec"
+	utilExec "github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 const (

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/util/format"
 )
 
 type FakeHandlerRunner struct {

@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/labels"
+	"github.com/ttysteale/kubernetes-api/labels"
 )
 
 func TestLabelSelectorAsSelector(t *testing.T) {

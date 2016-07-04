@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ensure the watch delivers the requested and only the requested items.

@@ -22,16 +22,16 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	"k8s.io/kubernetes/pkg/client/testing/core"
-	"k8s.io/kubernetes/pkg/kubelet/volume/cache"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
-	"k8s.io/kubernetes/pkg/volume/util/volumehelper"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/kubelet/volume/cache"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wait"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetesting "github.com/ttysteale/kubernetes-api/volume/testing"
+	"github.com/ttysteale/kubernetes-api/volume/util/operationexecutor"
+	"github.com/ttysteale/kubernetes-api/volume/util/volumehelper"
 )
 
 const (

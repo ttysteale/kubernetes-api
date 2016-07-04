@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/util/keymutex"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/util/keymutex"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 const (

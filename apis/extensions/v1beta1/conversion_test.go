@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	versioned "k8s.io/kubernetes/pkg/apis/extensions/v1beta1"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/batch"
+	versioned "github.com/ttysteale/kubernetes-api/apis/extensions/v1beta1"
 )
 
 // TestJobSpecConversion tests that ManualSelector and AutoSelector

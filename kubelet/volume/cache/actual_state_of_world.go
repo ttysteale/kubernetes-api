@@ -26,12 +26,12 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/operationexecutor"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
-	"k8s.io/kubernetes/pkg/volume/util/volumehelper"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/volume"
+	"github.com/ttysteale/kubernetes-api/volume/util/operationexecutor"
+	volumetypes "github.com/ttysteale/kubernetes-api/volume/util/types"
+	"github.com/ttysteale/kubernetes-api/volume/util/volumehelper"
 )
 
 // ActualStateOfWorld defines a set of thread-safe operations for the kubelet

@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	"github.com/golang/groupcache/lru"
-	"k8s.io/kubernetes/pkg/api/meta"
-	hashutil "k8s.io/kubernetes/pkg/util/hash"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	hashutil "github.com/ttysteale/kubernetes-api/util/hash"
 )
 
 type objectWithMeta interface {

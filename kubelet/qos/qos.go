@@ -17,8 +17,8 @@ limitations under the License.
 package qos
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 // isResourceGuaranteed returns true if the container's resource requirements are Guaranteed.

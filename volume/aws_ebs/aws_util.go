@@ -22,10 +22,10 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/cloudprovider"
-	"k8s.io/kubernetes/pkg/cloudprovider/providers/aws"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/cloudprovider/providers/aws"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 const (

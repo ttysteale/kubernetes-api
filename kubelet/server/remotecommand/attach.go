@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"time"
 
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // Attacher knows how to attach to a running container in a pod.

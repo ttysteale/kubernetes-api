@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
 )
 
 func TestCreateServiceAccount(t *testing.T) {

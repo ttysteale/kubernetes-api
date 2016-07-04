@@ -19,11 +19,11 @@ package v1alpha1
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/kubelet/qos"
-	"k8s.io/kubernetes/pkg/master/ports"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/kubelet/qos"
+	"github.com/ttysteale/kubernetes-api/master/ports"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) {

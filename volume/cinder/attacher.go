@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/util/exec"
-	"k8s.io/kubernetes/pkg/util/mount"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 type cinderDiskAttacher struct {

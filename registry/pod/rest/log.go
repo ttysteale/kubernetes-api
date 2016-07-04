@@ -19,15 +19,15 @@ package rest
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/kubelet/client"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	genericrest "k8s.io/kubernetes/pkg/registry/generic/rest"
-	"k8s.io/kubernetes/pkg/registry/pod"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/kubelet/client"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	genericrest "github.com/ttysteale/kubernetes-api/registry/generic/rest"
+	"github.com/ttysteale/kubernetes-api/registry/pod"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // LogREST implements the log endpoint for a Pod

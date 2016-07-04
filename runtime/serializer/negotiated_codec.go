@@ -17,8 +17,8 @@ limitations under the License.
 package serializer
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // TODO: We should figure out what happens when someone asks

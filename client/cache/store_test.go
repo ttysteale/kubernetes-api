@@ -19,7 +19,7 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // Test public interface

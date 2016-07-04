@@ -22,11 +22,11 @@ import (
 	"path"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/kubelet/cm"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/types"
-	nodeutil "k8s.io/kubernetes/pkg/util/node"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/kubelet/cm"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/types"
+	nodeutil "github.com/ttysteale/kubernetes-api/util/node"
 )
 
 // getRootDir returns the full path to the directory under which kubelet can

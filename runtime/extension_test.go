@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func TestEmbeddedRawExtensionMarshal(t *testing.T) {

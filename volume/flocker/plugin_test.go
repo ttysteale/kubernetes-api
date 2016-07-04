@@ -22,11 +22,11 @@ import (
 
 	flockerclient "github.com/ClusterHQ/flocker-go"
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 const pluginName = "kubernetes.io/flocker"

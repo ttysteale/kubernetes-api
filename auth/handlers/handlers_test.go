@@ -22,9 +22,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/auth/authenticator"
-	"k8s.io/kubernetes/pkg/auth/user"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/auth/authenticator"
+	"github.com/ttysteale/kubernetes-api/auth/user"
 )
 
 func TestAuthenticateRequest(t *testing.T) {

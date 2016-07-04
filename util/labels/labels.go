@@ -19,7 +19,7 @@ package labels
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // Clones the given map and returns a new map with the given key and value added.

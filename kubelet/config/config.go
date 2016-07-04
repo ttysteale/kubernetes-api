@@ -22,15 +22,15 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/client/record"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/util/config"
-	"k8s.io/kubernetes/pkg/util/sets"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	kubetypes "github.com/ttysteale/kubernetes-api/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/kubelet/util/format"
+	"github.com/ttysteale/kubernetes-api/util/config"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // PodConfigNotificationMode describes how changes are sent to the update channel.

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/testapi"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
 )
 
 func TestIsConfigTransportTLS(t *testing.T) {

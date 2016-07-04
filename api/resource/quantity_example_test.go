@@ -19,7 +19,7 @@ package resource_test
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 func ExampleFormat() {

@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // TestPopReleaseLock tests that when processor listener blocks on chan,

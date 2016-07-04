@@ -19,7 +19,7 @@ package api
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 func TestResourceHelpers(t *testing.T) {

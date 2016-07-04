@@ -20,12 +20,12 @@ import (
 	"io"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
-	cmdconfig "k8s.io/kubernetes/pkg/kubectl/cmd/config"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/rollout"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/set"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/util/flag"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
+	cmdconfig "github.com/ttysteale/kubernetes-api/kubectl/cmd/config"
+	"github.com/ttysteale/kubernetes-api/kubectl/cmd/rollout"
+	"github.com/ttysteale/kubernetes-api/kubectl/cmd/set"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/util/flag"
 
 	"github.com/spf13/cobra"
 )

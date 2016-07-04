@@ -20,9 +20,9 @@ import (
 	"net"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/proxy"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 func TestValidateWorks(t *testing.T) {

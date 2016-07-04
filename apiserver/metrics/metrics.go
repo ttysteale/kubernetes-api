@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 
 	"github.com/emicklei/go-restful"
 	"github.com/prometheus/client_golang/prometheus"

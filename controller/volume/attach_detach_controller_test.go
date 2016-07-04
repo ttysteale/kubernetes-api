@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/controller/framework/informers"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/testing"
+	"github.com/ttysteale/kubernetes-api/controller/framework/informers"
+	controllervolumetesting "github.com/ttysteale/kubernetes-api/controller/volume/testing"
 )
 
 func Test_NewAttachDetachController_Positive(t *testing.T) {

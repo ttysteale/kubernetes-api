@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"mime"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/runtime/serializer/recognizer"
-	"k8s.io/kubernetes/pkg/runtime/serializer/versioning"
-	"k8s.io/kubernetes/pkg/storage"
-	"k8s.io/kubernetes/pkg/storage/storagebackend"
-	storagebackendfactory "k8s.io/kubernetes/pkg/storage/storagebackend/factory"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer/recognizer"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer/versioning"
+	"github.com/ttysteale/kubernetes-api/storage"
+	"github.com/ttysteale/kubernetes-api/storage/storagebackend"
+	storagebackendfactory "github.com/ttysteale/kubernetes-api/storage/storagebackend/factory"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 
 	"github.com/golang/glog"
 )

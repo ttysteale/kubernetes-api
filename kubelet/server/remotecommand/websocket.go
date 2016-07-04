@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"time"
 
-	"k8s.io/kubernetes/pkg/httplog"
-	"k8s.io/kubernetes/pkg/util/wsstream"
+	"github.com/ttysteale/kubernetes-api/httplog"
+	"github.com/ttysteale/kubernetes-api/util/wsstream"
 
 	"github.com/golang/glog"
 )

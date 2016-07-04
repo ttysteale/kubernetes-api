@@ -31,9 +31,9 @@ import (
 	"github.com/mesos/mesos-go/detector"
 	mesos "github.com/mesos/mesos-go/mesosproto"
 	"golang.org/x/net/context"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 )
 
 const defaultClusterName = "mesos"

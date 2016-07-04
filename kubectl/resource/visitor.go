@@ -26,13 +26,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/runtime"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/util/yaml"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	"github.com/ttysteale/kubernetes-api/util/yaml"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 const (

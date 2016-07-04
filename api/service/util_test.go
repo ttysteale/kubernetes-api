@@ -19,8 +19,8 @@ package service
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	netsets "k8s.io/kubernetes/pkg/util/net/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	netsets "github.com/ttysteale/kubernetes-api/util/net/sets"
 	"strings"
 )
 

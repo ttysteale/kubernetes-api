@@ -17,8 +17,8 @@ limitations under the License.
 package genericapiserver
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // APIResourceConfigSource is the interface to determine which versions and resources are enabled

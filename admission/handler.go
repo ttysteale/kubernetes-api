@@ -17,7 +17,7 @@ limitations under the License.
 package admission
 
 import (
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // Handler is a base for admission control handlers that

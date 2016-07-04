@@ -17,15 +17,15 @@ limitations under the License.
 package serviceaccount
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/registry/secret"
-	secretetcd "k8s.io/kubernetes/pkg/registry/secret/etcd"
-	serviceaccountregistry "k8s.io/kubernetes/pkg/registry/serviceaccount"
-	serviceaccountetcd "k8s.io/kubernetes/pkg/registry/serviceaccount/etcd"
-	"k8s.io/kubernetes/pkg/serviceaccount"
-	"k8s.io/kubernetes/pkg/storage"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/registry/secret"
+	secretetcd "github.com/ttysteale/kubernetes-api/registry/secret/etcd"
+	serviceaccountregistry "github.com/ttysteale/kubernetes-api/registry/serviceaccount"
+	serviceaccountetcd "github.com/ttysteale/kubernetes-api/registry/serviceaccount/etcd"
+	"github.com/ttysteale/kubernetes-api/serviceaccount"
+	"github.com/ttysteale/kubernetes-api/storage"
 )
 
 // clientGetter implements ServiceAccountTokenGetter using a clientset.Interface

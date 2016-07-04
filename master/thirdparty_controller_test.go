@@ -19,10 +19,10 @@ package master
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	expapi "k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/registry/thirdpartyresourcedata"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	expapi "github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/registry/thirdpartyresourcedata"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 type FakeAPIInterface struct {

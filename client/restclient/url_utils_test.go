@@ -20,7 +20,7 @@ import (
 	"path"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/testapi"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
 )
 
 func TestValidatesHostParameter(t *testing.T) {

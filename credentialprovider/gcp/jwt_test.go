@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/credentialprovider"
+	"github.com/ttysteale/kubernetes-api/credentialprovider"
 )
 
 const email = "foo@bar.com"

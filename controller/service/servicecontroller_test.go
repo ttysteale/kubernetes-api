@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	fakecloud "k8s.io/kubernetes/pkg/cloudprovider/providers/fake"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	fakecloud "github.com/ttysteale/kubernetes-api/cloudprovider/providers/fake"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 const region = "us-central"

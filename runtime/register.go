@@ -17,7 +17,7 @@ limitations under the License.
 package runtime
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // SetGroupVersionKind satisfies the ObjectKind interface for all objects that embed TypeMeta

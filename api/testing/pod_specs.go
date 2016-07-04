@@ -17,7 +17,7 @@ limitations under the License.
 package testing
 
 import (
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // DeepEqualSafePodSpec returns a PodSpec which is ready to be used with api.Semantic.DeepEqual

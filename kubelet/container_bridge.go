@@ -24,7 +24,7 @@ import (
 	"regexp"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 var cidrRegexp = regexp.MustCompile(`inet ([0-9a-fA-F.:]*/[0-9]*)`)

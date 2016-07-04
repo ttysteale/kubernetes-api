@@ -18,7 +18,7 @@ package cm
 
 import (
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 type containerManagerStub struct{}

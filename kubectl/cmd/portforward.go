@@ -25,11 +25,11 @@ import (
 	"github.com/golang/glog"
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/unversioned/portforward"
-	"k8s.io/kubernetes/pkg/client/unversioned/remotecommand"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/portforward"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/remotecommand"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
 )
 
 var (

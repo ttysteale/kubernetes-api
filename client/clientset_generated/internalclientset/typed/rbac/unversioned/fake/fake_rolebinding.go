@@ -17,12 +17,12 @@ limitations under the License.
 package fake
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	rbac "k8s.io/kubernetes/pkg/apis/rbac"
-	core "k8s.io/kubernetes/pkg/client/testing/core"
-	labels "k8s.io/kubernetes/pkg/labels"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	rbac "github.com/ttysteale/kubernetes-api/apis/rbac"
+	core "github.com/ttysteale/kubernetes-api/client/testing/core"
+	labels "github.com/ttysteale/kubernetes-api/labels"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // FakeRoleBindings implements RoleBindingInterface

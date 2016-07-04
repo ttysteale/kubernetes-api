@@ -24,7 +24,7 @@ import (
 	"strconv"
 
 	flag "github.com/spf13/pflag"
-	"k8s.io/kubernetes/pkg/version"
+	"github.com/ttysteale/kubernetes-api/version"
 )
 
 type versionValue int

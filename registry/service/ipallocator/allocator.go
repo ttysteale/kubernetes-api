@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"net"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/registry/service/allocator"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/registry/service/allocator"
 )
 
 // Interface manages the allocation of IP addresses out of a range. Interface

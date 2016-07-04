@@ -35,9 +35,9 @@ import (
 	"gopkg.in/gcfg.v1"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/cloudprovider"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 const ProviderName = "vsphere"

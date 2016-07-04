@@ -30,8 +30,8 @@ import (
 	"strings"
 
 	"gopkg.in/gcfg.v1"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
 )
 
 const ProviderName = "ovirt"

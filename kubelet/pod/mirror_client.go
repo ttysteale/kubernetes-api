@@ -18,11 +18,11 @@ package pod
 
 import (
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	kubetypes "github.com/ttysteale/kubernetes-api/kubelet/types"
 )
 
 // MirrorClient knows how to create/delete a mirror pod in the API server.

@@ -29,13 +29,13 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/auth/authorizer"
-	"k8s.io/kubernetes/pkg/auth/user"
-	"k8s.io/kubernetes/pkg/httplog"
-	"k8s.io/kubernetes/pkg/serviceaccount"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/auth/authorizer"
+	"github.com/ttysteale/kubernetes-api/auth/user"
+	"github.com/ttysteale/kubernetes-api/httplog"
+	"github.com/ttysteale/kubernetes-api/serviceaccount"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 // specialVerbs contains just strings which are used in REST paths for special actions that don't fall under the normal

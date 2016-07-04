@@ -21,7 +21,7 @@ limitations under the License.
 package unversioned
 
 import (
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 	time "time"
 )
 

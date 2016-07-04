@@ -19,7 +19,7 @@ package util
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/diff"
+	"github.com/ttysteale/kubernetes-api/util/diff"
 )
 
 func TestStringDiff(t *testing.T) {

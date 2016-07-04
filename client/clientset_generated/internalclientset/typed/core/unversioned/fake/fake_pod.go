@@ -17,11 +17,11 @@ limitations under the License.
 package fake
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	core "k8s.io/kubernetes/pkg/client/testing/core"
-	labels "k8s.io/kubernetes/pkg/labels"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	core "github.com/ttysteale/kubernetes-api/client/testing/core"
+	labels "github.com/ttysteale/kubernetes-api/labels"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // FakePods implements PodInterface

@@ -17,7 +17,7 @@ limitations under the License.
 package generic
 
 import (
-	pkgstorage "k8s.io/kubernetes/pkg/storage"
+	pkgstorage "github.com/ttysteale/kubernetes-api/storage"
 )
 
 // RESTOptions is set of configuration options to generic registries.

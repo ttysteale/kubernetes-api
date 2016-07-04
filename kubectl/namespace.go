@@ -19,8 +19,8 @@ package kubectl
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // NamespaceGeneratorV1 supports stable generation of a namespace

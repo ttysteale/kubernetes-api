@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // HorizontalPodAutoscalersNamespacer has methods to work with HorizontalPodAutoscaler resources in a namespace

@@ -17,8 +17,8 @@ limitations under the License.
 package unversioned
 
 import (
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/util/net"
 )
 
 // The ServiceExpansion interface allows manually adding extra methods to the ServiceInterface.

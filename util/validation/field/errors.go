@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

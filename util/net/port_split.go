@@ -19,7 +19,7 @@ package net
 import (
 	"strings"
 
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 var validSchemes = sets.NewString("http", "https", "")

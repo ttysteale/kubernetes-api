@@ -22,8 +22,8 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
 )
 
 // updateReplicaCount attempts to update the Status.Replicas of the given ReplicaSet, with a single GET/PUT retry.

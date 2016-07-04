@@ -16,7 +16,7 @@ limitations under the License.
 
 package abac
 
-import "k8s.io/kubernetes/pkg/api/unversioned"
+import "github.com/ttysteale/kubernetes-api/api/unversioned"
 
 // Policy contains a single ABAC policy rule
 type Policy struct {

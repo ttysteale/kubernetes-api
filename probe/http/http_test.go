@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/ttysteale/kubernetes-api/probe"
 )
 
 const FailureCode int = -1

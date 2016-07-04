@@ -19,9 +19,9 @@ package factory
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
-	"k8s.io/kubernetes/pkg/storage/storagebackend"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
+	"github.com/ttysteale/kubernetes-api/storage/storagebackend"
 )
 
 // Create creates a storage backend based on given config.

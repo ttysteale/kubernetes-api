@@ -19,9 +19,9 @@ package validation
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/util/intstr"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/apis/policy"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func TestValidatePodDisruptionBudgetSpec(t *testing.T) {

@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // Returns string version of ResourceName.

@@ -20,13 +20,13 @@ package release_1_3
 import (
 	"fmt"
 
-	_ "k8s.io/kubernetes/pkg/api/install"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	_ "k8s.io/kubernetes/pkg/apis/authorization/install"
-	_ "k8s.io/kubernetes/pkg/apis/autoscaling/install"
-	_ "k8s.io/kubernetes/pkg/apis/batch/install"
-	_ "k8s.io/kubernetes/pkg/apis/componentconfig/install"
-	_ "k8s.io/kubernetes/pkg/apis/extensions/install"
+	_ "github.com/ttysteale/kubernetes-api/api/install"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	_ "github.com/ttysteale/kubernetes-api/apis/authorization/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/autoscaling/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/batch/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/componentconfig/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/extensions/install"
 )
 
 func init() {

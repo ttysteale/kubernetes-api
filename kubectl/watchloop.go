@@ -20,7 +20,7 @@ import (
 	"os"
 	"os/signal"
 
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // WatchLoop loops, passing events in w to fn.

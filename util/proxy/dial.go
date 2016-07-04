@@ -25,7 +25,7 @@ import (
 
 	"github.com/golang/glog"
 
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 	"k8s.io/kubernetes/third_party/golang/netutil"
 )
 

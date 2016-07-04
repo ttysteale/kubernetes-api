@@ -19,7 +19,7 @@ package watch
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // ConditionFunc returns true if the condition has been reached, false if it has not been reached yet,

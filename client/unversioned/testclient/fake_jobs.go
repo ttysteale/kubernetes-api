@@ -17,9 +17,9 @@ limitations under the License.
 package testclient
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/batch"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/batch"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // FakeJobs implements JobInterface. Meant to be embedded into a struct to get a default

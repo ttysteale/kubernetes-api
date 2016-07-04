@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/record"
-	. "k8s.io/kubernetes/pkg/kubelet/container"
-	ctest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	. "github.com/ttysteale/kubernetes-api/kubelet/container"
+	ctest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
 )
 
 func TestSerializedPuller(t *testing.T) {

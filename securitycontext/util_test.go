@@ -19,7 +19,7 @@ package securitycontext
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 func TestParseSELinuxOptions(t *testing.T) {

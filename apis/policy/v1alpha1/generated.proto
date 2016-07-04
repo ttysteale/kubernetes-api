@@ -21,11 +21,11 @@ syntax = 'proto2';
 
 package k8s.io.kubernetes.pkg.apis.policy.v1alpha1;
 
-import "k8s.io/kubernetes/pkg/api/resource/generated.proto";
-import "k8s.io/kubernetes/pkg/api/unversioned/generated.proto";
-import "k8s.io/kubernetes/pkg/api/v1/generated.proto";
-import "k8s.io/kubernetes/pkg/runtime/generated.proto";
-import "k8s.io/kubernetes/pkg/util/intstr/generated.proto";
+import "github.com/ttysteale/kubernetes-api/api/resource/generated.proto";
+import "github.com/ttysteale/kubernetes-api/api/unversioned/generated.proto";
+import "github.com/ttysteale/kubernetes-api/api/v1/generated.proto";
+import "github.com/ttysteale/kubernetes-api/runtime/generated.proto";
+import "github.com/ttysteale/kubernetes-api/util/intstr/generated.proto";
 
 // Package-wide variables from generator "generated".
 option go_package = "v1alpha1";

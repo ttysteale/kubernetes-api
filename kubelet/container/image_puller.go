@@ -20,9 +20,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/record"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
 )
 
 // imagePuller pulls the image using Runtime.PullImage().

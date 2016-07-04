@@ -29,12 +29,12 @@ import (
 	"testing"
 	"text/template"
 
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network"
-	nettest "k8s.io/kubernetes/pkg/kubelet/network/testing"
-	"k8s.io/kubernetes/pkg/util/sets"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
+	nettest "github.com/ttysteale/kubernetes-api/kubelet/network/testing"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
 )
 
 func tmpDirOrDie() string {

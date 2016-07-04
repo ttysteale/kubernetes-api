@@ -16,7 +16,7 @@ limitations under the License.
 
 package unversioned
 
-import "k8s.io/kubernetes/pkg/api"
+import "github.com/ttysteale/kubernetes-api/api"
 
 // The NodeExpansion interface allows manually adding extra methods to the NodeInterface.
 type NodeExpansion interface {

@@ -21,11 +21,11 @@ limitations under the License.
 package v1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	resource "k8s.io/kubernetes/pkg/api/resource"
-	conversion "k8s.io/kubernetes/pkg/conversion"
-	runtime "k8s.io/kubernetes/pkg/runtime"
-	types "k8s.io/kubernetes/pkg/types"
+	api "github.com/ttysteale/kubernetes-api/api"
+	resource "github.com/ttysteale/kubernetes-api/api/resource"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
+	runtime "github.com/ttysteale/kubernetes-api/runtime"
+	types "github.com/ttysteale/kubernetes-api/types"
 )
 
 func init() {

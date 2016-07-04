@@ -35,9 +35,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/service"
-	"k8s.io/kubernetes/pkg/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/service"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
 )
 
 // Note: when creating a new Loadbalancer (VM), it can take some time before it is ready for use,

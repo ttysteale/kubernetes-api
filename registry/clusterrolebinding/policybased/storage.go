@@ -18,12 +18,12 @@ limitations under the License.
 package policybased
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	"k8s.io/kubernetes/pkg/apis/rbac/validation"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/apis/rbac"
+	"github.com/ttysteale/kubernetes-api/apis/rbac/validation"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 var groupResource = rbac.Resource("clusterrolebindings")

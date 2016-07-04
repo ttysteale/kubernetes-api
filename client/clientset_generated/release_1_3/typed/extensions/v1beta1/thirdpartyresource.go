@@ -17,9 +17,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	v1beta1 "k8s.io/kubernetes/pkg/apis/extensions/v1beta1"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	v1beta1 "github.com/ttysteale/kubernetes-api/apis/extensions/v1beta1"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ThirdPartyResourcesGetter has a method to return a ThirdPartyResourceInterface.

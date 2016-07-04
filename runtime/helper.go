@@ -21,9 +21,9 @@ import (
 	"io"
 	"reflect"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/conversion"
-	"k8s.io/kubernetes/pkg/util/errors"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/conversion"
+	"github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 // unsafeObjectConvertor implements ObjectConvertor using the unsafe conversion path.

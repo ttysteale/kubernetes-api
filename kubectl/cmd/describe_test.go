@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
 )
 
 // Verifies that schemas that are not in the master tree of Kubernetes can be retrieved via Get.

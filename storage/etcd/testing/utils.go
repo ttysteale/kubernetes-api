@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 
 	etcd "github.com/coreos/etcd/client"
 	"github.com/coreos/etcd/etcdserver"

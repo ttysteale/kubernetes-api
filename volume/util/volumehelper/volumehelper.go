@@ -21,9 +21,9 @@ package volumehelper
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/volume"
+	"github.com/ttysteale/kubernetes-api/volume/util/types"
 )
 
 const (

@@ -26,9 +26,9 @@ import (
 	"net"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/util/exec"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 
 	"github.com/golang/glog"
 )

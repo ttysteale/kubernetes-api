@@ -19,11 +19,11 @@ package validation
 import (
 	"encoding/json"
 
-	apivalidation "k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	apivalidation "github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/controller/podautoscaler"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func ValidateScale(scale *autoscaling.Scale) field.ErrorList {

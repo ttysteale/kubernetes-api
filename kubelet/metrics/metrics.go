@@ -22,7 +22,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 const (

@@ -19,7 +19,7 @@ package watch
 import (
 	"sync"
 
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // Interface can be implemented by anything that knows how to watch and report changes.

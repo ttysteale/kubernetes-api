@@ -21,9 +21,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	authentication_k8s_io "k8s.io/kubernetes/pkg/apis/authentication.k8s.io"
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	api "github.com/ttysteale/kubernetes-api/api"
+	authentication_k8s_io "github.com/ttysteale/kubernetes-api/apis/authentication.k8s.io"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func init() {

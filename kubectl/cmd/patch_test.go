@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
 )
 
 func TestPatchObject(t *testing.T) {

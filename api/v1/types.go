@@ -17,11 +17,11 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/intstr"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 // The comments for the structs and fields can be used from go-resful to
@@ -113,7 +113,7 @@ type ObjectMeta struct {
 	// Populated by the system.
 	// Read-only.
 	// More info: http://releases.k8s.io/HEAD/docs/user-guide/identifiers.md#uids
-	UID types.UID `json:"uid,omitempty" protobuf:"bytes,5,opt,name=uid,casttype=k8s.io/kubernetes/pkg/types.UID"`
+	UID types.UID `json:"uid,omitempty" protobuf:"bytes,5,opt,name=uid,casttype=github.com/ttysteale/kubernetes-api/types.UID"`
 
 	// An opaque value that represents the internal version of this object that can
 	// be used by clients to determine when objects have changed. May be used for optimistic
@@ -2606,7 +2606,7 @@ type Binding struct {
 // Preconditions must be fulfilled before an operation (update, delete, etc.) is carried out.
 type Preconditions struct {
 	// Specifies the target UID.
-	UID *types.UID `json:"uid,omitempty" protobuf:"bytes,1,opt,name=uid,casttype=k8s.io/kubernetes/pkg/types.UID"`
+	UID *types.UID `json:"uid,omitempty" protobuf:"bytes,1,opt,name=uid,casttype=github.com/ttysteale/kubernetes-api/types.UID"`
 }
 
 // DeleteOptions may be provided when deleting an API object
@@ -2793,7 +2793,7 @@ type OwnerReference struct {
 	Name string `json:"name" protobuf:"bytes,3,opt,name=name"`
 	// UID of the referent.
 	// More info: http://releases.k8s.io/HEAD/docs/user-guide/identifiers.md#uids
-	UID types.UID `json:"uid" protobuf:"bytes,4,opt,name=uid,casttype=k8s.io/kubernetes/pkg/types.UID"`
+	UID types.UID `json:"uid" protobuf:"bytes,4,opt,name=uid,casttype=github.com/ttysteale/kubernetes-api/types.UID"`
 	// If true, this reference points to the managing controller.
 	Controller *bool `json:"controller,omitempty" protobuf:"varint,6,opt,name=controller"`
 }
@@ -2811,7 +2811,7 @@ type ObjectReference struct {
 	Name string `json:"name,omitempty" protobuf:"bytes,3,opt,name=name"`
 	// UID of the referent.
 	// More info: http://releases.k8s.io/HEAD/docs/user-guide/identifiers.md#uids
-	UID types.UID `json:"uid,omitempty" protobuf:"bytes,4,opt,name=uid,casttype=k8s.io/kubernetes/pkg/types.UID"`
+	UID types.UID `json:"uid,omitempty" protobuf:"bytes,4,opt,name=uid,casttype=github.com/ttysteale/kubernetes-api/types.UID"`
 	// API version of the referent.
 	APIVersion string `json:"apiVersion,omitempty" protobuf:"bytes,5,opt,name=apiVersion"`
 	// Specific resourceVersion to which this reference is made, if any.

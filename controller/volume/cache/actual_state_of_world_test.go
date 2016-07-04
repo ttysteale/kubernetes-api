@@ -19,9 +19,9 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	controllervolumetesting "k8s.io/kubernetes/pkg/controller/volume/testing"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	controllervolumetesting "github.com/ttysteale/kubernetes-api/controller/volume/testing"
+	volumetesting "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 // Calls AddVolumeNode() once.

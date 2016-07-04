@@ -20,9 +20,9 @@ import (
 	"net/url"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/client/unversioned/testclient/simple"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/testclient/simple"
 )
 
 func TestNamespaceCreate(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 
 	"github.com/golang/glog"
 
-	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
+	clientcmdapi "github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
 )
 
 type AuthProvider interface {

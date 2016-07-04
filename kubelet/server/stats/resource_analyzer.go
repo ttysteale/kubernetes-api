@@ -19,7 +19,7 @@ package stats
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // ResourceAnalyzer provides statistics on node resource consumption

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
 )
 
 // WorkQueue allows queuing items with a timestamp. An item is

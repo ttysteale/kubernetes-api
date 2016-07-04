@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 func TestFindPairInterfaceOfContainerInterface(t *testing.T) {

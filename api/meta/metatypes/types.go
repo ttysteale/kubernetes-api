@@ -19,7 +19,7 @@ limitations under the License.
 // API objects because it causes import cycle.
 package metatypes
 
-import "k8s.io/kubernetes/pkg/types"
+import "github.com/ttysteale/kubernetes-api/types"
 
 type OwnerReference struct {
 	APIVersion string

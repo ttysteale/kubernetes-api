@@ -19,8 +19,8 @@ package network
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	nettest "k8s.io/kubernetes/pkg/kubelet/network/testing"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	nettest "github.com/ttysteale/kubernetes-api/kubelet/network/testing"
 )
 
 func TestSelectDefaultPlugin(t *testing.T) {

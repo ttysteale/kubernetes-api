@@ -19,8 +19,8 @@ package runtime
 import (
 	"errors"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/conversion"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/conversion"
 )
 
 type encodable struct {

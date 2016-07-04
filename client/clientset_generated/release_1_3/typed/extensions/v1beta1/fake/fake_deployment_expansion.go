@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/kubernetes/pkg/apis/extensions/v1beta1"
-	"k8s.io/kubernetes/pkg/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/apis/extensions/v1beta1"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
 )
 
 func (c *FakeDeployments) Rollback(deploymentRollback *v1beta1.DeploymentRollback) error {

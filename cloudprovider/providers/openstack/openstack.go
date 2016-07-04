@@ -39,9 +39,9 @@ import (
 	"github.com/rackspace/gophercloud/pagination"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
 )
 
 const ProviderName = "openstack"

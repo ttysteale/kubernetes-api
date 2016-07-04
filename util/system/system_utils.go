@@ -19,7 +19,7 @@ package system
 import (
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // TODO: find a better way of figuring out if given node is a registered master.

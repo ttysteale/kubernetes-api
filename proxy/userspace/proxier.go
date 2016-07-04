@@ -26,14 +26,14 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/proxy"
-	"k8s.io/kubernetes/pkg/types"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/proxy"
+	"github.com/ttysteale/kubernetes-api/types"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/util/iptables"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	"github.com/ttysteale/kubernetes-api/util/iptables"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 type portal struct {

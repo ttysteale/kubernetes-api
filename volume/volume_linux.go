@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"k8s.io/kubernetes/pkg/util/chmod"
-	"k8s.io/kubernetes/pkg/util/chown"
+	"github.com/ttysteale/kubernetes-api/util/chmod"
+	"github.com/ttysteale/kubernetes-api/util/chown"
 
 	"os"
 

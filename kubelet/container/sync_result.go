@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 // TODO(random-liu): We need to better organize runtime errors for introspection.

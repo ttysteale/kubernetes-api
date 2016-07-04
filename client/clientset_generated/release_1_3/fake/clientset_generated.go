@@ -17,22 +17,22 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3"
-	v1autoscaling "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/autoscaling/v1"
-	fakev1autoscaling "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/autoscaling/v1/fake"
-	v1batch "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/batch/v1"
-	fakev1batch "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/batch/v1/fake"
-	v1core "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/core/v1"
-	fakev1core "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/core/v1/fake"
-	v1beta1extensions "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/extensions/v1beta1"
-	fakev1beta1extensions "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/extensions/v1beta1/fake"
-	"k8s.io/kubernetes/pkg/client/testing/core"
-	"k8s.io/kubernetes/pkg/client/typed/discovery"
-	fakediscovery "k8s.io/kubernetes/pkg/client/typed/discovery/fake"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3"
+	v1autoscaling "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/autoscaling/v1"
+	fakev1autoscaling "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/autoscaling/v1/fake"
+	v1batch "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/batch/v1"
+	fakev1batch "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/batch/v1/fake"
+	v1core "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/core/v1"
+	fakev1core "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/core/v1/fake"
+	v1beta1extensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/extensions/v1beta1"
+	fakev1beta1extensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/extensions/v1beta1/fake"
+	"github.com/ttysteale/kubernetes-api/client/testing/core"
+	"github.com/ttysteale/kubernetes-api/client/typed/discovery"
+	fakediscovery "github.com/ttysteale/kubernetes-api/client/typed/discovery/fake"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

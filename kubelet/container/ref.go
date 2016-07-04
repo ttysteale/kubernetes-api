@@ -19,7 +19,7 @@ package container
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 var ImplicitContainerPrefix string = "implicitly required container "

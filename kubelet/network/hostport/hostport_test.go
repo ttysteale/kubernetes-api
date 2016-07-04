@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
 )
 
 type fakeSocket struct {

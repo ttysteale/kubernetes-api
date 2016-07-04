@@ -17,8 +17,8 @@ limitations under the License.
 package group
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // GroupStrategy defines the interface for all group constraint strategies.

@@ -19,8 +19,8 @@ package unversioned
 import (
 	"time"
 
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // DefaultRetry is the recommended retry for a conflict where multiple clients

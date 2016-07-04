@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
-	"k8s.io/kubernetes/pkg/registry/service/ipallocator"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/registry/registrytest"
+	"github.com/ttysteale/kubernetes-api/registry/service/ipallocator"
 )
 
 type mockRangeRegistry struct {

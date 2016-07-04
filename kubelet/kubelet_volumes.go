@@ -20,10 +20,10 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetypes "github.com/ttysteale/kubernetes-api/volume/util/types"
 )
 
 // ListVolumesForPod returns a map of the mounted volumes for the given pod.

@@ -21,10 +21,10 @@ limitations under the License.
 package rbac
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	unversioned "k8s.io/kubernetes/pkg/api/unversioned"
-	conversion "k8s.io/kubernetes/pkg/conversion"
-	runtime "k8s.io/kubernetes/pkg/runtime"
+	api "github.com/ttysteale/kubernetes-api/api"
+	unversioned "github.com/ttysteale/kubernetes-api/api/unversioned"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
+	runtime "github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func init() {

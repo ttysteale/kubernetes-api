@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/diff"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	containertest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/diff"
 )
 
 const (

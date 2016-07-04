@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	. "k8s.io/kubernetes/pkg/proxy/config"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	. "github.com/ttysteale/kubernetes-api/proxy/config"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 const TomcatPort int = 8080

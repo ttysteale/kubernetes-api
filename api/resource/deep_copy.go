@@ -19,7 +19,7 @@ package resource
 import (
 	inf "gopkg.in/inf.v0"
 
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func DeepCopy_resource_Quantity(in Quantity, out *Quantity, c *conversion.Cloner) error {

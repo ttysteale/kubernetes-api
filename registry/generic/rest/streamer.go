@@ -22,8 +22,8 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // LocationStreamer is a resource that streams the contents of a particular

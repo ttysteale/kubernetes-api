@@ -25,11 +25,11 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 
-	"k8s.io/kubernetes/pkg/api"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
-	serviceaccountcontroller "k8s.io/kubernetes/pkg/controller/serviceaccount"
-	"k8s.io/kubernetes/pkg/serviceaccount"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
+	serviceaccountcontroller "github.com/ttysteale/kubernetes-api/controller/serviceaccount"
+	"github.com/ttysteale/kubernetes-api/serviceaccount"
 )
 
 const otherPublicKey = `-----BEGIN PUBLIC KEY-----

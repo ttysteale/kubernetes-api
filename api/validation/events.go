@@ -17,9 +17,9 @@ limitations under the License.
 package validation
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/validation"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/validation"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // ValidateEvent makes sure that the event makes sense.

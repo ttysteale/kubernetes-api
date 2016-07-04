@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/cloudprovider"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/io"
-	"k8s.io/kubernetes/pkg/util/mount"
-	utilstrings "k8s.io/kubernetes/pkg/util/strings"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
-	. "k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/cloudprovider"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/io"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	utilstrings "github.com/ttysteale/kubernetes-api/util/strings"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
+	. "github.com/ttysteale/kubernetes-api/volume"
 )
 
 // fakeVolumeHost is useful for testing volume plugins.

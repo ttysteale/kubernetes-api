@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/ttysteale/kubernetes-api/probe"
 )
 
 type FakeCmd struct {

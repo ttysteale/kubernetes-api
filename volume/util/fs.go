@@ -24,7 +24,7 @@ import (
 	"strings"
 	"syscall"
 
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 // FSInfo linux returns (available bytes, byte capacity, byte usage, error) for the filesystem that

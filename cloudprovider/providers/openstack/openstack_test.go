@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/rand"
+	"github.com/ttysteale/kubernetes-api/util/rand"
 
 	"github.com/rackspace/gophercloud"
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 const volumeAvailableStatus = "available"

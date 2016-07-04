@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/kubernetes/pkg/conversion"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/conversion"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // IsListType returns true if the provided Object has a slice called Items

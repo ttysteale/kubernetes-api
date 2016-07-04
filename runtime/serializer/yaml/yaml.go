@@ -17,9 +17,9 @@ limitations under the License.
 package yaml
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/yaml"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/yaml"
 )
 
 // yamlSerializer converts YAML passed to the Decoder methods to JSON.

@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	"k8s.io/kubernetes/pkg/apis/rbac/v1alpha1"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/apis/rbac"
+	"github.com/ttysteale/kubernetes-api/apis/rbac/v1alpha1"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func TestResourceVersioner(t *testing.T) {

@@ -21,12 +21,12 @@ import (
 	"path"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/mount"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/mount"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 func TestCanSupport(t *testing.T) {

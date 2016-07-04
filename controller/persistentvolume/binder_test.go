@@ -19,7 +19,7 @@ package persistentvolume
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // Test single call to syncClaim and syncVolume methods.

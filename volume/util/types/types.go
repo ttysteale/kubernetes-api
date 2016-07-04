@@ -17,7 +17,7 @@ limitations under the License.
 // Package types defines types used only by volume componenets
 package types
 
-import "k8s.io/kubernetes/pkg/types"
+import "github.com/ttysteale/kubernetes-api/types"
 
 // UniquePodName defines the type to key pods off of
 type UniquePodName types.UID

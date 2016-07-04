@@ -19,9 +19,9 @@ package kubelet
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/record"
-	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/record"
+	cadvisortest "github.com/ttysteale/kubernetes-api/kubelet/cadvisor/testing"
 )
 
 func TestBasic(t *testing.T) {

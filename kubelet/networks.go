@@ -17,9 +17,9 @@ limitations under the License.
 package kubelet
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // This just exports required functions from kubelet proper, for use by network

@@ -24,11 +24,11 @@ import (
 	etcd2client "github.com/coreos/etcd/client"
 	"github.com/coreos/etcd/pkg/transport"
 
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
-	"k8s.io/kubernetes/pkg/storage/etcd"
-	"k8s.io/kubernetes/pkg/storage/storagebackend"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
+	"github.com/ttysteale/kubernetes-api/storage/etcd"
+	"github.com/ttysteale/kubernetes-api/storage/storagebackend"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 )
 
 func newETCD2Storage(c storagebackend.Config, codec runtime.Codec) (storage.Interface, error) {

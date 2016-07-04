@@ -19,8 +19,8 @@ package userspace
 import (
 	"net"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/proxy"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/proxy"
 )
 
 // LoadBalancer is an interface for distributing incoming requests to service endpoints.

@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/registry/service"
-	"k8s.io/kubernetes/pkg/registry/service/portallocator"
-	"k8s.io/kubernetes/pkg/util/net"
-	"k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/registry/service"
+	"github.com/ttysteale/kubernetes-api/registry/service/portallocator"
+	"github.com/ttysteale/kubernetes-api/util/net"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // See ipallocator/controller/repair.go; this is a copy for ports.

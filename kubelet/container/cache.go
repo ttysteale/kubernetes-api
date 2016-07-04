@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 // Cache stores the PodStatus for the pods. It represents *all* the visible

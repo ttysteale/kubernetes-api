@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
-	internal "k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	api "k8s.io/kubernetes/pkg/api/v1"
-	"k8s.io/kubernetes/pkg/runtime"
+	internal "github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	api "github.com/ttysteale/kubernetes-api/api/v1"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func encodeOrDie(obj runtime.Object) []byte {

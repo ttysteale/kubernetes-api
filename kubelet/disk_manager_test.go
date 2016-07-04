@@ -23,7 +23,7 @@ import (
 	cadvisorapi "github.com/google/cadvisor/info/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
+	cadvisortest "github.com/ttysteale/kubernetes-api/kubelet/cadvisor/testing"
 )
 
 func testPolicy() DiskSpacePolicy {

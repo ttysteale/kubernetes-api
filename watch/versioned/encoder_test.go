@@ -21,12 +21,12 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/testapi"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/runtime/serializer/streaming"
-	"k8s.io/kubernetes/pkg/watch"
-	"k8s.io/kubernetes/pkg/watch/versioned"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/testapi"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer/streaming"
+	"github.com/ttysteale/kubernetes-api/watch"
+	"github.com/ttysteale/kubernetes-api/watch/versioned"
 )
 
 func TestEncodeDecodeRoundTrip(t *testing.T) {

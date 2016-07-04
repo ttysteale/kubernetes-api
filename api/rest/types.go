@@ -17,7 +17,7 @@ limitations under the License.
 package rest
 
 import (
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // ObjectFunc is a function to act on a given object. An error may be returned

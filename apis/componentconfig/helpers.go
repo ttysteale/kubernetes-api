@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 )
 
 // used for validating command line opts

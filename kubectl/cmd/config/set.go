@@ -27,8 +27,8 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
-	"k8s.io/kubernetes/pkg/util/flag"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
+	"github.com/ttysteale/kubernetes-api/util/flag"
 )
 
 const (

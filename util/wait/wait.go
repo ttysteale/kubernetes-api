@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // For any test of the style:

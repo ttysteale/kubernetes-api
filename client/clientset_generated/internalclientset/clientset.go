@@ -18,15 +18,15 @@ package internalclientset
 
 import (
 	"github.com/golang/glog"
-	unversionedautoscaling "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/autoscaling/unversioned"
-	unversionedbatch "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/batch/unversioned"
-	unversionedcertificates "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/certificates/unversioned"
-	unversionedcore "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/core/unversioned"
-	unversionedextensions "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/extensions/unversioned"
-	unversionedrbac "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/rbac/unversioned"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
-	discovery "k8s.io/kubernetes/pkg/client/typed/discovery"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
+	unversionedautoscaling "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/autoscaling/unversioned"
+	unversionedbatch "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/batch/unversioned"
+	unversionedcertificates "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/certificates/unversioned"
+	unversionedcore "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/core/unversioned"
+	unversionedextensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/extensions/unversioned"
+	unversionedrbac "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/rbac/unversioned"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
+	discovery "github.com/ttysteale/kubernetes-api/client/typed/discovery"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
 )
 
 type Interface interface {

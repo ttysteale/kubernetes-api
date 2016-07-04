@@ -21,9 +21,9 @@ import (
 
 	"strconv"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/util/net"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/util/net"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func TestAllocate(t *testing.T) {

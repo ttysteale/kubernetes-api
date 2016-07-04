@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/kubernetes/pkg/client/cache"
-	"k8s.io/kubernetes/pkg/runtime"
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/client/cache"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // if you use this, there is one behavior change compared to a standard Informer.

@@ -22,7 +22,7 @@ import (
 	"net"
 	"strings"
 
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
 )
 
 type fakeChain struct {

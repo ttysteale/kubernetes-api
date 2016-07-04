@@ -16,7 +16,7 @@ limitations under the License.
 
 package lifecycle
 
-import "k8s.io/kubernetes/pkg/api"
+import "github.com/ttysteale/kubernetes-api/api"
 
 // PodAdmitAttributes is the context for a pod admission decision.
 // The member fields of this struct should never be mutated.

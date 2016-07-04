@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	clientcmdapi "github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 func TestConfirmUsableBadInfoButOkConfig(t *testing.T) {

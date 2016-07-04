@@ -17,9 +17,9 @@ limitations under the License.
 package resource
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/meta"
-	client "k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	client "github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 // RESTClient is a client helper for dealing with RESTful resources

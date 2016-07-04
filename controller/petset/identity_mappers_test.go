@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	api_pod "k8s.io/kubernetes/pkg/api/pod"
+	"github.com/ttysteale/kubernetes-api/api"
+	api_pod "github.com/ttysteale/kubernetes-api/api/pod"
 	"testing"
 )
 

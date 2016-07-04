@@ -29,7 +29,7 @@ import (
 	"reflect"
 	"runtime"
 
-	"k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/util/net"
 )
 
 // chaosrt provides the ability to perform simulations of HTTP client failures

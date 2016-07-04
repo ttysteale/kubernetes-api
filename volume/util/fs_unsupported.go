@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 // FSInfo unsupported returns 0 values for available and capacity and an error.

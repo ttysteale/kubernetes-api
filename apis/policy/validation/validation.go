@@ -19,10 +19,10 @@ package validation
 import (
 	"reflect"
 
-	unversionedvalidation "k8s.io/kubernetes/pkg/api/unversioned/validation"
-	extensionsvalidation "k8s.io/kubernetes/pkg/apis/extensions/validation"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	unversionedvalidation "github.com/ttysteale/kubernetes-api/api/unversioned/validation"
+	extensionsvalidation "github.com/ttysteale/kubernetes-api/apis/extensions/validation"
+	"github.com/ttysteale/kubernetes-api/apis/policy"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func ValidatePodDisruptionBudget(pdb *policy.PodDisruptionBudget) field.ErrorList {

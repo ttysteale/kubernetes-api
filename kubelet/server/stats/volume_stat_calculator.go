@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/kubelet/api/v1alpha1/stats"
-	"k8s.io/kubernetes/pkg/kubelet/util/format"
-	"k8s.io/kubernetes/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/kubelet/api/v1alpha1/stats"
+	"github.com/ttysteale/kubernetes-api/kubelet/util/format"
+	"github.com/ttysteale/kubernetes-api/util/wait"
+	"github.com/ttysteale/kubernetes-api/volume"
 
 	"github.com/golang/glog"
 )

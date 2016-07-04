@@ -19,7 +19,7 @@ package genericapiserver
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 func TestDisabledVersion(t *testing.T) {

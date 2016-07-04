@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // containerID defines the ID of rkt containers, it will

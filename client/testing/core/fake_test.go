@@ -19,8 +19,8 @@ package core_test
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	clientsetfake "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/fake"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientsetfake "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/fake"
 )
 
 func TestFakeClientSetFiltering(t *testing.T) {

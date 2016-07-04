@@ -19,8 +19,8 @@ package proxy
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 // ProxyProvider is the interface provided by proxier implementations.

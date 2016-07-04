@@ -17,9 +17,9 @@ limitations under the License.
 package v1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	v1 "k8s.io/kubernetes/pkg/api/v1"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	v1 "github.com/ttysteale/kubernetes-api/api/v1"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // PodTemplatesGetter has a method to return a PodTemplateInterface.

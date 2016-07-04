@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/api/v1alpha1/stats"
-	"k8s.io/kubernetes/pkg/quota"
-	"k8s.io/kubernetes/pkg/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	statsapi "github.com/ttysteale/kubernetes-api/kubelet/api/v1alpha1/stats"
+	"github.com/ttysteale/kubernetes-api/quota"
+	"github.com/ttysteale/kubernetes-api/types"
 )
 
 func quantityMustParse(value string) *resource.Quantity {

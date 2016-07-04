@@ -27,7 +27,7 @@ import (
 	"testing"
 
 	"github.com/elazarl/goproxy"
-	"k8s.io/kubernetes/pkg/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
 )
 
 func TestRoundTripAndNewConnection(t *testing.T) {

@@ -16,7 +16,7 @@ limitations under the License.
 
 package componentconfig
 
-import "k8s.io/kubernetes/pkg/api/unversioned"
+import "github.com/ttysteale/kubernetes-api/api/unversioned"
 
 type KubeProxyConfiguration struct {
 	unversioned.TypeMeta

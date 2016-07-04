@@ -19,9 +19,9 @@ package kubectl
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	client "k8s.io/kubernetes/pkg/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
 )
 
 // StatusViewer provides an interface for resources that provides rollout status.

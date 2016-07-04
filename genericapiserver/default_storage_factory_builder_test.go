@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	apiv1 "k8s.io/kubernetes/pkg/api/v1"
-	extensionsapiv1beta1 "k8s.io/kubernetes/pkg/apis/extensions/v1beta1"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	apiv1 "github.com/ttysteale/kubernetes-api/api/v1"
+	extensionsapiv1beta1 "github.com/ttysteale/kubernetes-api/apis/extensions/v1beta1"
 )
 
 func TestParseRuntimeConfig(t *testing.T) {

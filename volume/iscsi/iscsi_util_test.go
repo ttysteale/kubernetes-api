@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/mount"
+	"github.com/ttysteale/kubernetes-api/util/mount"
 )
 
 func TestGetDevicePrefixRefCount(t *testing.T) {

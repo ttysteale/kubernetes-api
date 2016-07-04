@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 
 	"github.com/golang/glog"
 	"golang.org/x/crypto/ssh"

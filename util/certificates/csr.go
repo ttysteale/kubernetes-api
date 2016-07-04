@@ -21,7 +21,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	"k8s.io/kubernetes/pkg/apis/certificates"
+	"github.com/ttysteale/kubernetes-api/apis/certificates"
 )
 
 // ParseCertificateRequestObject extracts the CSR from the API object and decodes it.

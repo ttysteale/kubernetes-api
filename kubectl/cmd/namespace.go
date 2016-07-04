@@ -21,7 +21,7 @@ import (
 	"io"
 
 	"github.com/spf13/cobra"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
 )
 
 // TODO remove once people have been given enough time to notice

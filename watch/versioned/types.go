@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 // Event represents a single event to a watched resource.

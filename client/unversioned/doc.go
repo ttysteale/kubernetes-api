@@ -22,8 +22,8 @@ and deleting pods, replication controllers, daemons, services, and nodes.
 Most consumers should use the Config object to create a Client:
 
     import (
-      client "k8s.io/kubernetes/pkg/client/unversioned"
-      "k8s.io/kubernetes/pkg/api"
+      client "github.com/ttysteale/kubernetes-api/client/unversioned"
+      "github.com/ttysteale/kubernetes-api/api"
     )
 
     [...]

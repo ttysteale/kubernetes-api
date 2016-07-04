@@ -16,7 +16,7 @@ limitations under the License.
 
 package validation
 
-import "k8s.io/kubernetes/pkg/apis/rbac"
+import "github.com/ttysteale/kubernetes-api/apis/rbac"
 
 // Covers determines whether or not the ownerRules cover the servantRules in terms of allowed actions.
 // It returns whether or not the ownerRules cover and a list of the rules that the ownerRules do not cover.

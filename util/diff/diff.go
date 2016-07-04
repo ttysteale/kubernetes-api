@@ -27,7 +27,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // StringDiff diffs a and b and returns a human readable diff.

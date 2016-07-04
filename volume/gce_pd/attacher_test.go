@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 
 	"github.com/golang/glog"
 )

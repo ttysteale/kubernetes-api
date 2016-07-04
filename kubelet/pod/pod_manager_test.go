@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	podtest "k8s.io/kubernetes/pkg/kubelet/pod/testing"
-	kubetypes "k8s.io/kubernetes/pkg/kubelet/types"
+	"github.com/ttysteale/kubernetes-api/api"
+	podtest "github.com/ttysteale/kubernetes-api/kubelet/pod/testing"
+	kubetypes "github.com/ttysteale/kubernetes-api/kubelet/types"
 )
 
 // Stub out mirror client for testing purpose.

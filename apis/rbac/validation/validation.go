@@ -17,9 +17,9 @@ limitations under the License.
 package validation
 
 import (
-	"k8s.io/kubernetes/pkg/api/validation"
-	"k8s.io/kubernetes/pkg/apis/rbac"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api/validation"
+	"github.com/ttysteale/kubernetes-api/apis/rbac"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // Minimal validation of names for roles and bindings. Identical to the validation for Openshift. See:

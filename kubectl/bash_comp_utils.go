@@ -23,7 +23,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/kubectl/resource"
+	"github.com/ttysteale/kubernetes-api/kubectl/resource"
 )
 
 func AddJsonFilenameFlag(cmd *cobra.Command, value *[]string, usage string) {

@@ -19,7 +19,7 @@ package azure_file
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 // Abstract interface to azure file operations.

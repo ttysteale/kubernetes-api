@@ -23,7 +23,7 @@ import (
 	"github.com/golang/glog"
 
 	dockertypes "github.com/docker/engine-api/types"
-	runtime "k8s.io/kubernetes/pkg/kubelet/container"
+	runtime "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // imageStatsProvider exposes stats about all images currently available.

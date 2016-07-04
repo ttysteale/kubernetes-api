@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	unversioned "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/core/unversioned"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
-	core "k8s.io/kubernetes/pkg/client/testing/core"
+	unversioned "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/core/unversioned"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
+	core "github.com/ttysteale/kubernetes-api/client/testing/core"
 )
 
 type FakeCore struct {

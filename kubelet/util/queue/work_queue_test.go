@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 func newTestBasicWorkQueue() (*basicWorkQueue, *util.FakeClock) {

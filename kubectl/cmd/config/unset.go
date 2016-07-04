@@ -25,7 +25,7 @@ import (
 	"github.com/renstrom/dedent"
 	"github.com/spf13/cobra"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd"
 )
 
 type unsetOptions struct {

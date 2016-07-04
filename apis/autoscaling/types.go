@@ -17,8 +17,8 @@ limitations under the License.
 package autoscaling
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // Scale represents a scaling request for a resource.

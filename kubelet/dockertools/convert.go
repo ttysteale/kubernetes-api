@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	dockertypes "github.com/docker/engine-api/types"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
 )
 
 // This file contains helper functions to convert docker API types to runtime

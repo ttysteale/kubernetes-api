@@ -24,13 +24,13 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
-	statsapi "k8s.io/kubernetes/pkg/kubelet/api/v1alpha1/stats"
-	"k8s.io/kubernetes/pkg/kubelet/qos"
-	"k8s.io/kubernetes/pkg/kubelet/server/stats"
-	"k8s.io/kubernetes/pkg/quota/evaluator/core"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
+	statsapi "github.com/ttysteale/kubernetes-api/kubelet/api/v1alpha1/stats"
+	"github.com/ttysteale/kubernetes-api/kubelet/qos"
+	"github.com/ttysteale/kubernetes-api/kubelet/server/stats"
+	"github.com/ttysteale/kubernetes-api/quota/evaluator/core"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 const (

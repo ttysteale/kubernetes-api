@@ -19,10 +19,10 @@ package poddisruptionbudget
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/policy"
-	"k8s.io/kubernetes/pkg/util/intstr"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/policy"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 func TestPodDisruptionBudgetStrategy(t *testing.T) {

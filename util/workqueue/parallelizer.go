@@ -19,7 +19,7 @@ package workqueue
 import (
 	"sync"
 
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 type DoWorkPieceFunc func(piece int)

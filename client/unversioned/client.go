@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/typed/discovery"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/typed/discovery"
 )
 
 // Interface holds the methods for clients of Kubernetes,

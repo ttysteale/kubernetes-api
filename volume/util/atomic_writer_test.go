@@ -28,8 +28,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/util/sets"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
+	"github.com/ttysteale/kubernetes-api/util/sets"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
 )
 
 func TestNewAtomicWriter(t *testing.T) {

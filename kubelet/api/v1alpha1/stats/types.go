@@ -17,7 +17,7 @@ limitations under the License.
 package stats
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // Summary is a top-level container for holding NodeStats and PodStats.

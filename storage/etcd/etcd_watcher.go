@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/storage"
-	etcdutil "k8s.io/kubernetes/pkg/storage/etcd/util"
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/storage"
+	etcdutil "github.com/ttysteale/kubernetes-api/storage/etcd/util"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/watch"
 
 	etcd "github.com/coreos/etcd/client"
 	"github.com/golang/glog"

@@ -25,10 +25,10 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 	"github.com/golang/glog"
-	apiutil "k8s.io/kubernetes/pkg/api/util"
-	"k8s.io/kubernetes/pkg/runtime"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	"k8s.io/kubernetes/pkg/util/yaml"
+	apiutil "github.com/ttysteale/kubernetes-api/api/util"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	"github.com/ttysteale/kubernetes-api/util/yaml"
 )
 
 type InvalidTypeError struct {

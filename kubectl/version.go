@@ -21,8 +21,8 @@ import (
 	"io"
 	"os"
 
-	client "k8s.io/kubernetes/pkg/client/unversioned"
-	"k8s.io/kubernetes/pkg/version"
+	client "github.com/ttysteale/kubernetes-api/client/unversioned"
+	"github.com/ttysteale/kubernetes-api/version"
 )
 
 func GetServerVersion(w io.Writer, kubeClient client.Interface) {

@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/probe"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/probe"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
 )
 
 func TestHTTPKubeletClient(t *testing.T) {

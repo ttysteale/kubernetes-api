@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/storage"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/storage"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // statusError is an object that can be converted into an unversioned.Status

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/probe"
+	"github.com/ttysteale/kubernetes-api/probe"
 )
 
 func containsAny(s string, substrs []string) bool {

@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	utildbus "k8s.io/kubernetes/pkg/util/dbus"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	utildbus "github.com/ttysteale/kubernetes-api/util/dbus"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
 
 	"github.com/golang/glog"
 )

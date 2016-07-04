@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // WatchEvent objects are streamed from the api server in response to a watch request.

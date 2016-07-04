@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/imdario/mergo"
-	"k8s.io/kubernetes/pkg/client/restclient"
-	clientcmdapi "k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	clientcmdapi "github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
 )
 
 func TestOldMergoLib(t *testing.T) {

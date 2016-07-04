@@ -24,14 +24,14 @@ import (
 
 	"testing"
 
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network"
-	"k8s.io/kubernetes/pkg/kubelet/network/cni/testing"
-	hostporttest "k8s.io/kubernetes/pkg/kubelet/network/hostport/testing"
-	nettest "k8s.io/kubernetes/pkg/kubelet/network/testing"
-	"k8s.io/kubernetes/pkg/util/bandwidth"
-	"k8s.io/kubernetes/pkg/util/exec"
-	ipttest "k8s.io/kubernetes/pkg/util/iptables/testing"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
+	"github.com/ttysteale/kubernetes-api/kubelet/network/cni/testing"
+	hostporttest "github.com/ttysteale/kubernetes-api/kubelet/network/hostport/testing"
+	nettest "github.com/ttysteale/kubernetes-api/kubelet/network/testing"
+	"github.com/ttysteale/kubernetes-api/util/bandwidth"
+	"github.com/ttysteale/kubernetes-api/util/exec"
+	ipttest "github.com/ttysteale/kubernetes-api/util/iptables/testing"
 )
 
 // test it fulfills the NetworkPlugin interface

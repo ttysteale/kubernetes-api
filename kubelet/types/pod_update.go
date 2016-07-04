@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 const ConfigSourceAnnotationKey = "kubernetes.io/config.source"

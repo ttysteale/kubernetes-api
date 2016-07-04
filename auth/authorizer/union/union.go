@@ -17,8 +17,8 @@ limitations under the License.
 package union
 
 import (
-	"k8s.io/kubernetes/pkg/auth/authorizer"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
+	"github.com/ttysteale/kubernetes-api/auth/authorizer"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
 )
 
 // unionAuthzHandler authorizer against a chain of authorizer.Authorizer

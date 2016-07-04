@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"golang.org/x/net/websocket"
-	"k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // The WebSocket subprotocol "binary.k8s.io" will only send messages to the

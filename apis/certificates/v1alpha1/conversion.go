@@ -16,7 +16,7 @@ limitations under the License.
 
 package v1alpha1
 
-import "k8s.io/kubernetes/pkg/runtime"
+import "github.com/ttysteale/kubernetes-api/runtime"
 
 func addConversionFuncs(scheme *runtime.Scheme) {
 	// Add non-generated conversion functions here. Currently there are none.

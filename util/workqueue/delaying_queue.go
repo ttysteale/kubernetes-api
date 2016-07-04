@@ -20,8 +20,8 @@ import (
 	"sort"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util"
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
 )
 
 // DelayingInterface is an Interface that can Add an item at a later time.  This makes it easier to

@@ -16,7 +16,7 @@ limitations under the License.
 
 package v1
 
-import "k8s.io/kubernetes/pkg/api/v1"
+import "github.com/ttysteale/kubernetes-api/api/v1"
 
 // The NamespaceExpansion interface allows manually adding extra methods to the NamespaceInterface.
 type NamespaceExpansion interface {

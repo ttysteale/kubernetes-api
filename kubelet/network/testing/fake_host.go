@@ -20,10 +20,10 @@ package testing
 // a fake host is created here that can be used by plugins for testing
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	containertest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
 )
 
 type fakeNetworkHost struct {

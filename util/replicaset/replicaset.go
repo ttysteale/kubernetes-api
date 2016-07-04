@@ -21,16 +21,16 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	unversionedextensions "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/extensions/unversioned"
-	"k8s.io/kubernetes/pkg/labels"
-	errorsutil "k8s.io/kubernetes/pkg/util/errors"
-	labelsutil "k8s.io/kubernetes/pkg/util/labels"
-	podutil "k8s.io/kubernetes/pkg/util/pod"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	unversionedextensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/extensions/unversioned"
+	"github.com/ttysteale/kubernetes-api/labels"
+	errorsutil "github.com/ttysteale/kubernetes-api/util/errors"
+	labelsutil "github.com/ttysteale/kubernetes-api/util/labels"
+	podutil "github.com/ttysteale/kubernetes-api/util/pod"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 // TODO: use client library instead when it starts to support update retries

@@ -36,8 +36,8 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	utilnet "k8s.io/kubernetes/pkg/util/net"
-	"k8s.io/kubernetes/pkg/util/proxy"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
+	"github.com/ttysteale/kubernetes-api/util/proxy"
 )
 
 type fakeResponder struct {

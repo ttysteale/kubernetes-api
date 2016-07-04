@@ -20,8 +20,8 @@ import (
 	"net/http"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/auth/authenticator"
-	"k8s.io/kubernetes/pkg/auth/user"
+	"github.com/ttysteale/kubernetes-api/auth/authenticator"
+	"github.com/ttysteale/kubernetes-api/auth/user"
 )
 
 type Authenticator struct {

@@ -17,13 +17,13 @@ limitations under the License.
 package podsecuritypolicy
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/capabilities"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/group"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/selinux"
-	"k8s.io/kubernetes/pkg/security/podsecuritypolicy/user"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/security/podsecuritypolicy/capabilities"
+	"github.com/ttysteale/kubernetes-api/security/podsecuritypolicy/group"
+	"github.com/ttysteale/kubernetes-api/security/podsecuritypolicy/selinux"
+	"github.com/ttysteale/kubernetes-api/security/podsecuritypolicy/user"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 // Provider provides the implementation to generate a new security

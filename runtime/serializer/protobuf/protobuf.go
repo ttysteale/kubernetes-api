@@ -24,9 +24,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/framer"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/framer"
 )
 
 var (
@@ -35,7 +35,7 @@ var (
 	// byte being reserved for the encoding style. The only encoding style defined is 0x00, which means that
 	// the rest of the byte stream is a message of type k8s.io.kubernetes.pkg.runtime.Unknown (proto2).
 	//
-	// See k8s.io/kubernetes/pkg/runtime/generated.proto for details of the runtime.Unknown message.
+	// See github.com/ttysteale/kubernetes-api/runtime/generated.proto for details of the runtime.Unknown message.
 	//
 	// This encoding scheme is experimental, and is subject to change at any time.
 	protoEncodingPrefix = []byte{0x6b, 0x38, 0x73, 0x00}

@@ -19,10 +19,10 @@ package rest
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/registry/generic/registry"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/registry/generic/registry"
+	"github.com/ttysteale/kubernetes-api/registry/registrytest"
 )
 
 func TestPodLogValidates(t *testing.T) {

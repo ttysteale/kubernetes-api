@@ -17,9 +17,9 @@ limitations under the License.
 package validation
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/util/validation"
-	"k8s.io/kubernetes/pkg/util/validation/field"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/util/validation"
+	"github.com/ttysteale/kubernetes-api/util/validation/field"
 )
 
 func ValidateLabelSelector(ps *unversioned.LabelSelector, fldPath *field.Path) field.ErrorList {

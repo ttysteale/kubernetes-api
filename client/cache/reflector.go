@@ -34,13 +34,13 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	apierrs "k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/meta"
-	"k8s.io/kubernetes/pkg/runtime"
-	utilruntime "k8s.io/kubernetes/pkg/util/runtime"
-	"k8s.io/kubernetes/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/api"
+	apierrs "github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	utilruntime "github.com/ttysteale/kubernetes-api/util/runtime"
+	"github.com/ttysteale/kubernetes-api/util/wait"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // ListerWatcher is any object that knows how to perform an initial list and start a watch on a resource.
@@ -166,7 +166,7 @@ func hasPackage(file string, ignoredPackages []string) bool {
 
 // trimPackagePrefix reduces dulpicate values off the front of a package name.
 func trimPackagePrefix(file string) string {
-	if l := strings.LastIndex(file, "k8s.io/kubernetes/pkg/"); l >= 0 {
+	if l := strings.LastIndex(file, "github.com/ttysteale/kubernetes-api/"); l >= 0 {
 		return file[l+len("k8s.io/kubernetes/"):]
 	}
 	if l := strings.LastIndex(file, "/src/"); l >= 0 {

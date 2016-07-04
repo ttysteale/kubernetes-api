@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/pborman/uuid"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/io"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
-	"k8s.io/kubernetes/pkg/volume"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/io"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
+	"github.com/ttysteale/kubernetes-api/volume"
 )
 
 func TestSavePodToFile(t *testing.T) {

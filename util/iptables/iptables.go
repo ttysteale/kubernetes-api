@@ -27,9 +27,9 @@ import (
 	"github.com/coreos/go-semver/semver"
 	godbus "github.com/godbus/dbus"
 	"github.com/golang/glog"
-	utildbus "k8s.io/kubernetes/pkg/util/dbus"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	"k8s.io/kubernetes/pkg/util/sets"
+	utildbus "github.com/ttysteale/kubernetes-api/util/dbus"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 type RulePosition string

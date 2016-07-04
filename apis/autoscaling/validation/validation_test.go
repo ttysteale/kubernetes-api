@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/autoscaling"
-	"k8s.io/kubernetes/pkg/controller/podautoscaler"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	"github.com/ttysteale/kubernetes-api/controller/podautoscaler"
 )
 
 func TestValidateScale(t *testing.T) {

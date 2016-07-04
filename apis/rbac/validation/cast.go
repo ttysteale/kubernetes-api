@@ -16,7 +16,7 @@ limitations under the License.
 
 package validation
 
-import "k8s.io/kubernetes/pkg/apis/rbac"
+import "github.com/ttysteale/kubernetes-api/apis/rbac"
 
 // Casting utilities to and from "Cluster" level equivalents.
 

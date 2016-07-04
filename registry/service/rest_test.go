@@ -21,15 +21,15 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/registry/registrytest"
-	"k8s.io/kubernetes/pkg/registry/service/ipallocator"
-	"k8s.io/kubernetes/pkg/registry/service/portallocator"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/registry/registrytest"
+	"github.com/ttysteale/kubernetes-api/registry/service/ipallocator"
+	"github.com/ttysteale/kubernetes-api/registry/service/portallocator"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 
-	"k8s.io/kubernetes/pkg/util/intstr"
+	"github.com/ttysteale/kubernetes-api/util/intstr"
 )
 
 // TODO(wojtek-t): Cleanup this file.

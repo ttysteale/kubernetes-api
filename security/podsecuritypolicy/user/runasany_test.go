@@ -19,7 +19,7 @@ package user
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
 )
 
 func TestRunAsAnyOptions(t *testing.T) {

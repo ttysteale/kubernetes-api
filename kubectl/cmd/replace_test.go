@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/fake"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/fake"
 )
 
 func TestReplaceObject(t *testing.T) {

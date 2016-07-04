@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/credentialprovider"
-	utilnet "k8s.io/kubernetes/pkg/util/net"
+	"github.com/ttysteale/kubernetes-api/credentialprovider"
+	utilnet "github.com/ttysteale/kubernetes-api/util/net"
 )
 
 func TestDockerKeyringFromGoogleDockerConfigMetadata(t *testing.T) {

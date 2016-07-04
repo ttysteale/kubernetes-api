@@ -23,8 +23,8 @@ import (
 	"io"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/util/json"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/util/json"
 )
 
 // UnstructuredJSONScheme is capable of converting JSON data into the Unstructured

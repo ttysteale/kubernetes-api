@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	certificates "k8s.io/kubernetes/pkg/apis/certificates"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	certificates "github.com/ttysteale/kubernetes-api/apis/certificates"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // CertificateSigningRequestsGetter has a method to return a CertificateSigningRequestInterface.

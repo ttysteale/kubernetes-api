@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api/meta"
+	"github.com/ttysteale/kubernetes-api/api/meta"
 )
 
 // Store is a generic object storage interface. Reflector knows how to watch a server

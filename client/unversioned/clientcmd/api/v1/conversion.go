@@ -19,9 +19,9 @@ package v1
 import (
 	"sort"
 
-	"k8s.io/kubernetes/pkg/client/unversioned/clientcmd/api"
-	"k8s.io/kubernetes/pkg/conversion"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/client/unversioned/clientcmd/api"
+	"github.com/ttysteale/kubernetes-api/conversion"
+	"github.com/ttysteale/kubernetes-api/runtime"
 )
 
 func init() {

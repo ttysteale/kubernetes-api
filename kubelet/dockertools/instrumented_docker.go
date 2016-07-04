@@ -20,7 +20,7 @@ import (
 	"time"
 
 	dockertypes "github.com/docker/engine-api/types"
-	"k8s.io/kubernetes/pkg/kubelet/metrics"
+	"github.com/ttysteale/kubernetes-api/kubelet/metrics"
 )
 
 // instrumentedDockerInterface wraps the DockerInterface and records the operations

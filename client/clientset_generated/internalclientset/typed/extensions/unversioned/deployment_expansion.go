@@ -16,7 +16,7 @@ limitations under the License.
 
 package unversioned
 
-import "k8s.io/kubernetes/pkg/apis/extensions"
+import "github.com/ttysteale/kubernetes-api/apis/extensions"
 
 // The DeploymentExpansion interface allows manually adding extra methods to the DeploymentInterface.
 type DeploymentExpansion interface {

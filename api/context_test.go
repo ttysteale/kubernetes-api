@@ -19,7 +19,7 @@ package api_test
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
+	"github.com/ttysteale/kubernetes-api/api"
 )
 
 // TestNamespaceContext validates that a namespace can be get/set on a context object

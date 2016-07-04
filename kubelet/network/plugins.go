@@ -21,18 +21,18 @@ import (
 	"net"
 	"strings"
 
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	utilerrors "k8s.io/kubernetes/pkg/util/errors"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	utilsets "k8s.io/kubernetes/pkg/util/sets"
-	utilsysctl "k8s.io/kubernetes/pkg/util/sysctl"
-	"k8s.io/kubernetes/pkg/util/validation"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	utilerrors "github.com/ttysteale/kubernetes-api/util/errors"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	utilsets "github.com/ttysteale/kubernetes-api/util/sets"
+	utilsysctl "github.com/ttysteale/kubernetes-api/util/sysctl"
+	"github.com/ttysteale/kubernetes-api/util/validation"
 )
 
 const DefaultPluginName = "kubernetes.io/no-op"

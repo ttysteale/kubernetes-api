@@ -19,7 +19,7 @@ package cache
 import (
 	"time"
 
-	expirationCache "k8s.io/kubernetes/pkg/client/cache"
+	expirationCache "github.com/ttysteale/kubernetes-api/client/cache"
 )
 
 // ObjectCache is a simple wrapper of expiration cache that

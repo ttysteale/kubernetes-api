@@ -20,7 +20,7 @@ import (
 	"errors"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/auth/authorizer"
+	"github.com/ttysteale/kubernetes-api/auth/authorizer"
 )
 
 type mockAuthzHandler struct {

@@ -17,8 +17,8 @@ limitations under the License.
 package server
 
 import (
-	"k8s.io/kubernetes/pkg/auth/authenticator"
-	"k8s.io/kubernetes/pkg/auth/authorizer"
+	"github.com/ttysteale/kubernetes-api/auth/authenticator"
+	"github.com/ttysteale/kubernetes-api/auth/authorizer"
 )
 
 // KubeletAuth implements AuthInterface

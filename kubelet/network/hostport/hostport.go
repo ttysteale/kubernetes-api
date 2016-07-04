@@ -26,12 +26,12 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/api"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	iptablesproxy "k8s.io/kubernetes/pkg/proxy/iptables"
-	utildbus "k8s.io/kubernetes/pkg/util/dbus"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	utiliptables "k8s.io/kubernetes/pkg/util/iptables"
+	"github.com/ttysteale/kubernetes-api/api"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	iptablesproxy "github.com/ttysteale/kubernetes-api/proxy/iptables"
+	utildbus "github.com/ttysteale/kubernetes-api/util/dbus"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	utiliptables "github.com/ttysteale/kubernetes-api/util/iptables"
 )
 
 const (

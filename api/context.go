@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"k8s.io/kubernetes/pkg/auth/user"
+	"github.com/ttysteale/kubernetes-api/auth/user"
 )
 
 // Context carries values across API boundaries.

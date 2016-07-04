@@ -17,10 +17,10 @@ limitations under the License.
 package core
 
 import (
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/quota"
-	"k8s.io/kubernetes/pkg/quota/generic"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/quota"
+	"github.com/ttysteale/kubernetes-api/quota/generic"
 )
 
 // NewRegistry returns a registry that knows how to deal with core kubernetes resources

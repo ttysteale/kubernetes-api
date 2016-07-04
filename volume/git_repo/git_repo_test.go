@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/types"
-	"k8s.io/kubernetes/pkg/util/exec"
-	"k8s.io/kubernetes/pkg/volume"
-	"k8s.io/kubernetes/pkg/volume/empty_dir"
-	volumetest "k8s.io/kubernetes/pkg/volume/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/types"
+	"github.com/ttysteale/kubernetes-api/util/exec"
+	"github.com/ttysteale/kubernetes-api/volume"
+	"github.com/ttysteale/kubernetes-api/volume/empty_dir"
+	volumetest "github.com/ttysteale/kubernetes-api/volume/testing"
 )
 
 func newTestHost(t *testing.T) (string, volume.VolumeHost) {

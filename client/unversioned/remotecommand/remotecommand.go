@@ -24,11 +24,11 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
-	"k8s.io/kubernetes/pkg/client/transport"
-	"k8s.io/kubernetes/pkg/kubelet/server/remotecommand"
-	"k8s.io/kubernetes/pkg/util/httpstream"
-	"k8s.io/kubernetes/pkg/util/httpstream/spdy"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/transport"
+	"github.com/ttysteale/kubernetes-api/kubelet/server/remotecommand"
+	"github.com/ttysteale/kubernetes-api/util/httpstream"
+	"github.com/ttysteale/kubernetes-api/util/httpstream/spdy"
 )
 
 // Executor is an interface for transporting shell-style streams.

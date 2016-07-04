@@ -23,8 +23,8 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"k8s.io/kubernetes/pkg/api/meta"
-	apiutil "k8s.io/kubernetes/pkg/api/util"
+	"github.com/ttysteale/kubernetes-api/api/meta"
+	apiutil "github.com/ttysteale/kubernetes-api/api/util"
 )
 
 var allModels = make(map[string]*swagger.NamedModel)

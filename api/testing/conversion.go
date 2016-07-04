@@ -19,8 +19,8 @@ package testing
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/labels"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/labels"
 )
 
 // TestSelectableFieldLabelConversions verifies that given resource have field

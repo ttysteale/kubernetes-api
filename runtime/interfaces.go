@@ -20,7 +20,7 @@ import (
 	"io"
 	"net/url"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 const (

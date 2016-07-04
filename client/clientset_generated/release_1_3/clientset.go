@@ -18,13 +18,13 @@ package release_1_3
 
 import (
 	"github.com/golang/glog"
-	v1autoscaling "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/autoscaling/v1"
-	v1batch "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/batch/v1"
-	v1core "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/core/v1"
-	v1beta1extensions "k8s.io/kubernetes/pkg/client/clientset_generated/release_1_3/typed/extensions/v1beta1"
-	restclient "k8s.io/kubernetes/pkg/client/restclient"
-	discovery "k8s.io/kubernetes/pkg/client/typed/discovery"
-	"k8s.io/kubernetes/pkg/util/flowcontrol"
+	v1autoscaling "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/autoscaling/v1"
+	v1batch "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/batch/v1"
+	v1core "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/core/v1"
+	v1beta1extensions "github.com/ttysteale/kubernetes-api/client/clientset_generated/release_1_3/typed/extensions/v1beta1"
+	restclient "github.com/ttysteale/kubernetes-api/client/restclient"
+	discovery "github.com/ttysteale/kubernetes-api/client/typed/discovery"
+	"github.com/ttysteale/kubernetes-api/util/flowcontrol"
 )
 
 type Interface interface {

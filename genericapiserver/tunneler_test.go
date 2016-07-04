@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util"
+	"github.com/ttysteale/kubernetes-api/util"
 
 	"github.com/stretchr/testify/assert"
 )

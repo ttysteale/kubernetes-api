@@ -21,9 +21,9 @@ package cm
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/kubelet/cadvisor"
-	"k8s.io/kubernetes/pkg/util/mount"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/kubelet/cadvisor"
+	"github.com/ttysteale/kubernetes-api/util/mount"
 )
 
 type unsupportedContainerManager struct {

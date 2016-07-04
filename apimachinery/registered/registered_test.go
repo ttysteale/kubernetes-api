@@ -19,8 +19,8 @@ package registered
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/apimachinery"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/apimachinery"
 )
 
 func TestAllPreferredGroupVersions(t *testing.T) {

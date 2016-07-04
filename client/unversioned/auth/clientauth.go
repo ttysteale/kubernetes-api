@@ -68,7 +68,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"k8s.io/kubernetes/pkg/client/restclient"
+	"github.com/ttysteale/kubernetes-api/client/restclient"
 )
 
 // Info holds Kubernetes API authorization config.  It is intended

@@ -22,9 +22,9 @@ import (
 	"os"
 	"strconv"
 
-	"k8s.io/kubernetes/pkg/api"
-	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
-	"k8s.io/kubernetes/pkg/kubectl/resource"
+	"github.com/ttysteale/kubernetes-api/api"
+	cmdutil "github.com/ttysteale/kubernetes-api/kubectl/cmd/util"
+	"github.com/ttysteale/kubernetes-api/kubectl/resource"
 
 	"github.com/daviddengcn/go-colortext"
 	"github.com/spf13/cobra"

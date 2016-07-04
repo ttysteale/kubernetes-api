@@ -18,8 +18,8 @@ package cadvisor
 
 import (
 	cadvisorApi "github.com/google/cadvisor/info/v1"
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 func CapacityFromMachineInfo(info *cadvisorApi.MachineInfo) api.ResourceList {

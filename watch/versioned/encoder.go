@@ -19,9 +19,9 @@ package versioned
 import (
 	"encoding/json"
 
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/runtime/serializer/streaming"
-	"k8s.io/kubernetes/pkg/watch"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/runtime/serializer/streaming"
+	"github.com/ttysteale/kubernetes-api/watch"
 )
 
 // Encoder serializes watch.Events into io.Writer. The internal objects

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/kubernetes/pkg/api"
-	expapi "k8s.io/kubernetes/pkg/apis/extensions"
-	thirdpartyresourceetcd "k8s.io/kubernetes/pkg/registry/thirdpartyresource/etcd"
-	"k8s.io/kubernetes/pkg/registry/thirdpartyresourcedata"
-	"k8s.io/kubernetes/pkg/runtime"
-	"k8s.io/kubernetes/pkg/util/sets"
+	"github.com/ttysteale/kubernetes-api/api"
+	expapi "github.com/ttysteale/kubernetes-api/apis/extensions"
+	thirdpartyresourceetcd "github.com/ttysteale/kubernetes-api/registry/thirdpartyresource/etcd"
+	"github.com/ttysteale/kubernetes-api/registry/thirdpartyresourcedata"
+	"github.com/ttysteale/kubernetes-api/runtime"
+	"github.com/ttysteale/kubernetes-api/util/sets"
 )
 
 const thirdpartyprefix = "/apis"

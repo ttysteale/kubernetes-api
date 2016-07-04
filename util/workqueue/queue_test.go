@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/kubernetes/pkg/util/workqueue"
+	"github.com/ttysteale/kubernetes-api/util/workqueue"
 )
 
 func TestBasic(t *testing.T) {

@@ -17,9 +17,9 @@ limitations under the License.
 package unversioned
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	extensions "k8s.io/kubernetes/pkg/apis/extensions"
-	watch "k8s.io/kubernetes/pkg/watch"
+	api "github.com/ttysteale/kubernetes-api/api"
+	extensions "github.com/ttysteale/kubernetes-api/apis/extensions"
+	watch "github.com/ttysteale/kubernetes-api/watch"
 )
 
 // DaemonSetsGetter has a method to return a DaemonSetInterface.

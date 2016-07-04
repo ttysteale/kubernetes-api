@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----

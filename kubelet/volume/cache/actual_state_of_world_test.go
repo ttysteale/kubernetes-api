@@ -19,11 +19,11 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/volume"
-	volumetesting "k8s.io/kubernetes/pkg/volume/testing"
-	volumetypes "k8s.io/kubernetes/pkg/volume/util/types"
-	"k8s.io/kubernetes/pkg/volume/util/volumehelper"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/volume"
+	volumetesting "github.com/ttysteale/kubernetes-api/volume/testing"
+	volumetypes "github.com/ttysteale/kubernetes-api/volume/util/types"
+	"github.com/ttysteale/kubernetes-api/volume/util/volumehelper"
 )
 
 // Calls AddVolume() once to add volume

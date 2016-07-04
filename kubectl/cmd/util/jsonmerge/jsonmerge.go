@@ -23,8 +23,8 @@ import (
 	"github.com/evanphx/json-patch"
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/util/strategicpatch"
-	"k8s.io/kubernetes/pkg/util/yaml"
+	"github.com/ttysteale/kubernetes-api/util/strategicpatch"
+	"github.com/ttysteale/kubernetes-api/util/yaml"
 )
 
 // Delta represents a change between two JSON documents.

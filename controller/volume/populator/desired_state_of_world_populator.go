@@ -23,12 +23,12 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	kcache "k8s.io/kubernetes/pkg/client/cache"
-	"k8s.io/kubernetes/pkg/controller/framework"
-	"k8s.io/kubernetes/pkg/controller/volume/cache"
-	"k8s.io/kubernetes/pkg/util/wait"
-	"k8s.io/kubernetes/pkg/volume/util/volumehelper"
+	"github.com/ttysteale/kubernetes-api/api"
+	kcache "github.com/ttysteale/kubernetes-api/client/cache"
+	"github.com/ttysteale/kubernetes-api/controller/framework"
+	"github.com/ttysteale/kubernetes-api/controller/volume/cache"
+	"github.com/ttysteale/kubernetes-api/util/wait"
+	"github.com/ttysteale/kubernetes-api/volume/util/volumehelper"
 )
 
 // DesiredStateOfWorldPopulator periodically verifies that the pods in the

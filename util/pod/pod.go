@@ -23,12 +23,12 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	unversionedcore "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset/typed/core/unversioned"
-	errorsutil "k8s.io/kubernetes/pkg/util/errors"
-	hashutil "k8s.io/kubernetes/pkg/util/hash"
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	unversionedcore "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset/typed/core/unversioned"
+	errorsutil "github.com/ttysteale/kubernetes-api/util/errors"
+	hashutil "github.com/ttysteale/kubernetes-api/util/hash"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 func GetPodTemplateSpecHash(template api.PodTemplateSpec) uint32 {

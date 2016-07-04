@@ -17,9 +17,9 @@ limitations under the License.
 package install
 
 import (
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/quota"
-	"k8s.io/kubernetes/pkg/quota/evaluator/core"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/quota"
+	"github.com/ttysteale/kubernetes-api/quota/evaluator/core"
 )
 
 // NewRegistry returns a registry that knows how to deal kubernetes resources

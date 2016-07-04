@@ -17,8 +17,8 @@ limitations under the License.
 package certificates
 
 import (
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
 )
 
 // +genclient=true,nonNamespaced=true

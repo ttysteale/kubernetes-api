@@ -21,7 +21,7 @@ package cm
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/util/mount"
+	"github.com/ttysteale/kubernetes-api/util/mount"
 )
 
 type fakeMountInterface struct {

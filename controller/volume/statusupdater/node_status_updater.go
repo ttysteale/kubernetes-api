@@ -24,11 +24,11 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
-	"k8s.io/kubernetes/pkg/controller/framework"
-	"k8s.io/kubernetes/pkg/controller/volume/cache"
-	"k8s.io/kubernetes/pkg/util/strategicpatch"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
+	"github.com/ttysteale/kubernetes-api/controller/framework"
+	"github.com/ttysteale/kubernetes-api/controller/volume/cache"
+	"github.com/ttysteale/kubernetes-api/util/strategicpatch"
 )
 
 // NodeStatusUpdater defines a set of operations for updating the

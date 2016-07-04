@@ -18,11 +18,11 @@ package cloudprovider
 
 import (
 	// Cloud providers
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/aws"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/gce"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/mesos"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/openstack"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/ovirt"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/rackspace"
-	_ "k8s.io/kubernetes/pkg/cloudprovider/providers/vsphere"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/aws"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/gce"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/mesos"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/openstack"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/ovirt"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/rackspace"
+	_ "github.com/ttysteale/kubernetes-api/cloudprovider/providers/vsphere"
 )

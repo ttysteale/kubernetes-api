@@ -23,10 +23,10 @@ import (
 	"github.com/appc/cni/libcni"
 	cnitypes "github.com/appc/cni/pkg/types"
 	"github.com/golang/glog"
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	"k8s.io/kubernetes/pkg/kubelet/network"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
 )
 
 const (

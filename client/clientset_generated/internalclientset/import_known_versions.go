@@ -20,17 +20,17 @@ package internalclientset
 import (
 	"fmt"
 
-	_ "k8s.io/kubernetes/pkg/api/install"
-	"k8s.io/kubernetes/pkg/apimachinery/registered"
-	_ "k8s.io/kubernetes/pkg/apis/apps/install"
-	_ "k8s.io/kubernetes/pkg/apis/authorization/install"
-	_ "k8s.io/kubernetes/pkg/apis/autoscaling/install"
-	_ "k8s.io/kubernetes/pkg/apis/batch/install"
-	_ "k8s.io/kubernetes/pkg/apis/certificates/install"
-	_ "k8s.io/kubernetes/pkg/apis/componentconfig/install"
-	_ "k8s.io/kubernetes/pkg/apis/extensions/install"
-	_ "k8s.io/kubernetes/pkg/apis/policy/install"
-	_ "k8s.io/kubernetes/pkg/apis/rbac/install"
+	_ "github.com/ttysteale/kubernetes-api/api/install"
+	"github.com/ttysteale/kubernetes-api/apimachinery/registered"
+	_ "github.com/ttysteale/kubernetes-api/apis/apps/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/authorization/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/autoscaling/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/batch/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/certificates/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/componentconfig/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/extensions/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/policy/install"
+	_ "github.com/ttysteale/kubernetes-api/apis/rbac/install"
 )
 
 func init() {

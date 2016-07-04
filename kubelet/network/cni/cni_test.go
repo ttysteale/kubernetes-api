@@ -28,15 +28,15 @@ import (
 	"testing"
 	"text/template"
 
-	clientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
+	clientset "github.com/ttysteale/kubernetes-api/client/clientset_generated/internalclientset"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/apis/componentconfig"
-	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
-	containertest "k8s.io/kubernetes/pkg/kubelet/container/testing"
-	"k8s.io/kubernetes/pkg/kubelet/network"
-	utilexec "k8s.io/kubernetes/pkg/util/exec"
-	utiltesting "k8s.io/kubernetes/pkg/util/testing"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/apis/componentconfig"
+	kubecontainer "github.com/ttysteale/kubernetes-api/kubelet/container"
+	containertest "github.com/ttysteale/kubernetes-api/kubelet/container/testing"
+	"github.com/ttysteale/kubernetes-api/kubelet/network"
+	utilexec "github.com/ttysteale/kubernetes-api/util/exec"
+	utiltesting "github.com/ttysteale/kubernetes-api/util/testing"
 )
 
 func installPluginUnderTest(t *testing.T, testVendorCNIDirPrefix, testNetworkConfigPath, vendorName string, plugName string) {

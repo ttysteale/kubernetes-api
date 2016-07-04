@@ -19,7 +19,7 @@ package config
 import (
 	"sync"
 
-	"k8s.io/kubernetes/pkg/util/wait"
+	"github.com/ttysteale/kubernetes-api/util/wait"
 )
 
 type Merger interface {

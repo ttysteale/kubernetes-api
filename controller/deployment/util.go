@@ -23,10 +23,10 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/kubernetes/pkg/apis/extensions"
-	"k8s.io/kubernetes/pkg/controller"
-	deploymentutil "k8s.io/kubernetes/pkg/util/deployment"
-	"k8s.io/kubernetes/pkg/util/integer"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/controller"
+	deploymentutil "github.com/ttysteale/kubernetes-api/util/deployment"
+	"github.com/ttysteale/kubernetes-api/util/integer"
 )
 
 // findActiveOrLatest returns the only active or the latest replica set in case there is at most one active

@@ -22,8 +22,8 @@ import (
 	"path"
 	"time"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/resource"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/resource"
 )
 
 // Volume represents a directory used by pods or hosts on a node. All method

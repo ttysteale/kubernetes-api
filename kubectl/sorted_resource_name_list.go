@@ -19,8 +19,8 @@ package kubectl
 import (
 	"sort"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/kubelet/qos"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/kubelet/qos"
 )
 
 type SortableResourceNames []api.ResourceName

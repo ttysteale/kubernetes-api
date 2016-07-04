@@ -19,18 +19,18 @@ package etcd
 import (
 	"fmt"
 
-	"k8s.io/kubernetes/pkg/api"
-	"k8s.io/kubernetes/pkg/api/errors"
-	"k8s.io/kubernetes/pkg/api/rest"
-	"k8s.io/kubernetes/pkg/api/unversioned"
-	"k8s.io/kubernetes/pkg/registry/controller"
-	"k8s.io/kubernetes/pkg/registry/controller/etcd"
-	"k8s.io/kubernetes/pkg/registry/generic"
-	"k8s.io/kubernetes/pkg/runtime"
+	"github.com/ttysteale/kubernetes-api/api"
+	"github.com/ttysteale/kubernetes-api/api/errors"
+	"github.com/ttysteale/kubernetes-api/api/rest"
+	"github.com/ttysteale/kubernetes-api/api/unversioned"
+	"github.com/ttysteale/kubernetes-api/registry/controller"
+	"github.com/ttysteale/kubernetes-api/registry/controller/etcd"
+	"github.com/ttysteale/kubernetes-api/registry/generic"
+	"github.com/ttysteale/kubernetes-api/runtime"
 
-	"k8s.io/kubernetes/pkg/apis/extensions"
+	"github.com/ttysteale/kubernetes-api/apis/extensions"
 
-	extvalidation "k8s.io/kubernetes/pkg/apis/extensions/validation"
+	extvalidation "github.com/ttysteale/kubernetes-api/apis/extensions/validation"
 )
 
 // Container includes dummy storage for RC pods and experimental storage for Scale.

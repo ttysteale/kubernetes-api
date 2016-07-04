@@ -21,9 +21,9 @@ limitations under the License.
 package v1
 
 import (
-	api "k8s.io/kubernetes/pkg/api"
-	autoscaling "k8s.io/kubernetes/pkg/apis/autoscaling"
-	conversion "k8s.io/kubernetes/pkg/conversion"
+	api "github.com/ttysteale/kubernetes-api/api"
+	autoscaling "github.com/ttysteale/kubernetes-api/apis/autoscaling"
+	conversion "github.com/ttysteale/kubernetes-api/conversion"
 )
 
 func init() {
